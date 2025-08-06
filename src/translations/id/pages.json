@@ -1,0 +1,140 @@
+{
+  "about": {
+    "title": "Kampung Kwau",
+    "welcome": "Selamat Datang Di",
+    "description": "Kampung Kwau, yang terletak di Distrik Mokwam, Kabupaten Manokwari, Papua Barat, dikenal sebagai kawasan hutan konservasi dengan keanekaragaman hayati yang luar biasa, terutama burung endemik Papua. Selain menjadi habitat alami bagi berbagai spesies langka, Kampung Kwau juga memiliki potensi besar sebagai destinasi wisata berbasis alam yang menarik bagi wisatawan lokal maupun mancanegara. Salah satu daya tarik utama Kampung Kwau adalah keberagaman faunanya, khususnya burung endemik Papua yang dapat diamati melalui kegiatan birdwatching. Selain itu, pengunjung juga dapat menikmati keindahan kupu-kupu yang beraneka ragam. Dari segi flora, kampung ini memiliki kekayaan alam yang unik, seperti pohon pisang hutan raksasa Musa ingens W. Simmonds, yang merupakan spesies endemik Papua, serta berbagai jenis anggrek yang tumbuh subur dan mempercantik lanskap hutan. Selain keindahan alamnya, Kampung Kwau juga menawarkan pesona budaya yang khas. Salah satu atraksi budaya yang menarik adalah Tari Tumbu Tanah, tarian tradisional yang mencerminkan kekayaan dan kearifan lokal masyarakat setempat. Keindahan alam semakin lengkap dengan adanya air terjun yang menambah daya tarik bagi para pencinta petualangan dan wisata alam. Dengan keunikan ekosistem dan budaya yang dimilikinya, Kampung Kwau merupakan destinasi yang sempurna bagi siapa saja yang ingin menikmati keindahan alam Papua Barat sekaligus merasakan kearifan budaya lokal yang autentik."
+  },
+  "contact": {
+    "title": "Kontak Kami",
+    "subtitle": "Kontak",
+    "description": "Kami Untuk Info Lebih Lanjut",
+    "form": {
+      "name": "Nama Anda",
+      "email": "Email Anda",
+      "subject": "Subject",
+      "message": "Pesan",
+      "submit": "Kirim Pesan"
+    }
+  },
+  "booking": {
+    "title": "Boking Wisata",
+    "duration": "Durasi",
+    "maxGuests": "Max",
+    "guests": "orang",
+    "includes": "Termasuk",
+    "selectPackage": "Booking",
+    "next": "Lanjut",
+    "back": "Kembali",
+    "confirm": "Konfirmasi",
+    "success": "Booking Berhasil!",
+    "successMessage": "Terima kasih telah mempercayai Kampung Kwau untuk liburan Anda.",
+    "bookingDetails": "Detail Booking:",
+    "bookingNumber": "Nomor Booking",
+    "package": "Paket",
+    "total": "Total",
+    "status": "Status",
+    "waitingConfirmation": "Menunggu Konfirmasi",
+    "emailInfo": "Email konfirmasi akan dikirim dalam 1x24 jam. Tim kami akan menghubungi Anda untuk konfirmasi pembayaran dan detail lebih lanjut.",
+    "backToHome": "Kembali ke Home",
+    "createBooking": "Buat Booking",
+    "processing": "Memproses...",
+    "step2": {
+      "title": "Tanggal & Jumlah Tamu",
+      "checkIn": "Tanggal Check-in",
+      "checkOut": "Tanggal Check-out",
+      "checkInPlaceholder": "Pilih tanggal check-in",
+      "checkOutPlaceholder": "Pilih tanggal check-out",
+      "adults": "Dewasa",
+      "children": "Anak-anak (0-12 tahun)",
+      "adultsOption": "orang",
+      "childrenOption": "anak",
+      "adultsRequired": "Jumlah dewasa harus diisi",
+      "priceEstimate": "Estimasi Harga:",
+      "adultsPrice": "Dewasa",
+      "childrenPrice": "Anak-anak",
+      "days": "hari",
+      "subtotal": "Subtotal"
+    },
+    
+    "step4": {
+      "title": "Data Pribadi",
+      "fullName": "Nama Lengkap",
+      "email": "Email",
+      "phone": "Nomor Telepon",
+      "nationality": "Kewarganegaraan",
+      "emergencyContact": "Kontak Darurat",
+      "specialRequests": "Permintaan Khusus",
+      "dietaryRestrictions": "Pantangan Makanan",
+      "accessibilityNeeds": "Kebutuhan Khusus",
+      "specialOccasion": "Acara Spesial",
+      "additionalNotes": "Catatan Tambahan",
+      "placeholder": {
+        "fullName": "Masukkan nama lengkap",
+        "email": "Masukkan alamat email",
+        "phone": "Masukkan nomor telepon",
+        "emergencyContact": "Nama - Nomor telepon",
+        "dietaryRestrictions": "Contoh: Vegetarian, alergi seafood",
+        "accessibilityNeeds": "Contoh: Kursi roda, akses khusus",
+        "specialOccasion": "Contoh: Anniversary, ulang tahun",
+        "additionalNotes": "Catatan tambahan untuk tim kami"
+      }
+    },
+    "step5": {
+      "title": "Konfirmasi Booking",
+      "reviewBooking": "Review Booking Anda",
+      "personalInfo": "Informasi Pribadi",
+      "bookingInfo": "Informasi Booking",
+      "activities": "Aktivitas Tambahan",
+      "specialRequests": "Permintaan Khusus",
+      "noActivities": "Tidak ada aktivitas tambahan",
+      "noSpecialRequests": "Tidak ada permintaan khusus"
+    }
+  },
+  "bookingStatus": {
+    "title": "Cek Status Booking",
+    "searchTitle": "Cari Booking Anda",
+    "searchBy": "Cari berdasarkan:",
+    "bookingNumber": "Nomor Booking",
+    "email": "Email",
+    "searchPlaceholder": "Masukkan nomor booking (KW-YYYYMMDD-XXX)",
+    "emailPlaceholder": "Masukkan alamat email",
+    "search": "Cari",
+    "noResults": "Tidak ada booking ditemukan. Periksa kembali nomor booking atau email Anda.",
+    "bookingDetails": "Detail Booking",
+    "customerInfo": "Informasi Customer",
+    "packageInfo": "Informasi Paket",
+    "activities": "Aktivitas Tambahan",
+    "specialRequests": "Permintaan Khusus",
+    "pricing": "Rincian Biaya",
+    "createdAt": "Tanggal Booking"
+  },
+  "tourPackage": {
+    "title": "Paket Wisata",
+    "heading": "Jika Anda Berkunjung Ke Kampung Kwau, Bisa Booking disini",
+    "packages": {
+      "basic": {
+        "name": "Home Stay",
+        "description": "Kampung Wisata Kwau yang mencakup akomodasi homestay, makanan lokal, dan aktivitas birdwatching dengan guide lokal berpengalaman.",
+        "price": "Rp 250.000/malam",
+        "duration": "2D1N",
+        "maxGuests": 4,
+        "includes": [
+          "1 malam homestay",
+          "3x makanan lokal",
+          "Birdwatching tour (3 jam)",
+          "Guide lokal",
+          "Transportasi lokal"
+        ]
+      }
+    },
+    "facilities": {
+      "bed": "bed",
+      "bath": "bath",
+      "wifi": "Wifi"
+    },
+    "buttons": {
+      "detail": "Detail",
+      "booking": "Booking"
+    }
+  }
+} 
