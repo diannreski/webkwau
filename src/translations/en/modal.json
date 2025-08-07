@@ -240,108 +240,50 @@
   },
    "kopi": {
     "title": "Kwau Coffee - Coffee from Kampung Kwau",
-    "description": "Kampung Kwau, located in Mokwam District, Manokwari Regency, is not only famous as a world-class birdwatching destination, but also holds great potential in agriculture—especially in coffee cultivation. The coffee grown in Kwau is cultivated organically in the highlands of the Arfak Mountains, an ideal elevation for producing high-quality coffee beans. Without the use of chemical pesticides, the coffee plants are cared for naturally by the local community, whose knowledge has been passed down through generations. Kwau coffee is known for its distinctive flavor profile—a fragrant aroma with hints of chocolate and spice, and a balanced taste with mild acidity and smooth body. The harvesting and processing are done manually, reflecting the community’s dedication to quality and sustainability. Today, coffee from Kampung Kwau is being promoted as part of a movement to support local economic empowerment and develop agrotourism. Visitors can experience the entire coffee process—from planting to processing—and enjoy freshly brewed coffee prepared by local residents.",
-    "constructionTitle": "Kwau Coffee Tree:",
+    "description": "Kwau Village, located in Mokwam District, Manokwari Regency, is not only knoaswn  a world-renowned birdwatching destination but also holds tremendous local potential in agriculture—particularly coffee. Coffee cultivated in Kwau is grown organically in the highlands of the Arfak Mountains, at an ideal altitude for producing high-quality coffee beans. Without the use of chemical pesticides, the coffee plants are naturally cared for by the local community, who have passed this knowledge down through generations. Kwau coffee is known for its distinctive flavor: a fragrant aroma with hints of chocolate and spice, and a balanced taste of light acidity and a smooth texture. Harvesting and processing are carried out manually, reflecting the community's commitment to quality and sustainability. Now, coffee from Kwau Village is being marketed as part of efforts to empower the local economy and promote agrotourism. Tourists can directly witness the process of planting and processing the coffee beans, and even sample fresh coffee brewed by local residents.",
+     "constructionTitle": "Pohon Kopi Kwau:",
     "construction": [
-      "Main Pillars: Ulin wood or ironwood that is durable",
-      "Walls: Combination of wood and bamboo with natural ventilation",
-      "Roof: Sago or rumbia leaves that are waterproof",
-      "Floor: Wooden planks with gaps for air circulation",
-      "Foundation: River stones as pillar base"
+      "Buah kopi hanya dipetik saat benar-benar matang warna merah tua."
     ],
-    "philosophyTitle": "Kwau Coffee Fruit:",
+    "philosophyTitle": "Buah Kopi Kwau Belum di kupas:",
     "philosophy": [
-      "\"Centipede\": Symbolizing community stability and strength",
-      "Elevation: Stilt house as protection from wild animals",
-      "Orientation: Facing east to welcome sunlight",
-      "Communal Space: Central area for gathering and rituals",
-      "Nature Harmony: Design that integrates with environment"
+      "Buah Kopi Kwau: Buah yang sudah di petik ini yang siap untuk di kupas. Warna merah tua menandakan kadar gula optimal. Buah yang cacat, hijau, atau busuk dipisahkan. Buah yang lolos seleksi inilah yang lanjut ke tahap berikutnya."
     ],
-    "functionTitle": "Function and Rooms:",
+    "functionTitle": "Buah Kopi setelah di kupas:",
     "function": [
-      "Main Room: Extended family gathering area",
-      "Bedroom: Separate compartments for privacy",
-      "Kitchen: Cooking area with traditional fireplace",
-      "Granary: Storage for harvest and equipment",
-      "Veranda: Place to receive guests and daily activities"
+      "Buah Kopi Kwau: Buah di kupas dari kulit dan di ambil biji kopinya agar bisa di jemur"
     ],
-    "advantagesTitle": "Architectural Advantages:",
+    "advantagesTitle": "Biji Kopi di jemur:",
     "advantages": [
-      "Earthquake Resistant: Flexible structure with traditional joints",
-      "Natural Ventilation: Optimal air circulation",
-      "Environmentally Friendly: 100% natural materials",
-      "Energy Efficient: No air conditioning needed",
-      "Easy to Repair: Practical modular system"
+      "Penjemuran Tradisional: Biji kopi dijemur di atas para-para bambu atau pun alas lainnya. Proses ini di keringkan sampe betul-betul kering."
     ],
-    "experienceTitle": "Tourist Experience:",
+    "experienceTitle": "Biji Kopi Setelah di jemur:",
     "experience": [
-      "Stay in authentic traditional house",
-      "Learn traditional construction techniques",
-      "Workshop making centipede house miniature",
-      "Hear stories and legends from tribal elders",
-      "Experience communal life of Arfak community"
+      "Setelah kering, kopi disimpan dalam karung goni di tempat sejuk dan gelap. Ini memberi waktu untuk rasa kopi menjadi stabil."
     ],
-    "conservationTitle": "Conservation and Preservation:",
+    "coffeeTitle": "Proses Pengupasan Kulit yang sudah di jemur:",
+    "coffee": [
+      "Pengupasan Kulit: Ini adalah proses penting dan khas di Kampung Kwau, pengupasan kulit tanduk (kulit keras berwarna keperakan) dilakukan dengan dua cara",
+      "Pertama Manual Tradisional: Untuk skala kecil atau konsumsi lokal, sebagian petani masih menggunakan alat tumbuk kayu (lesung & alu) untuk memecah kulit ari. Proses ini memakan waktu, tetapi menciptakan kedekatan dengan hasil panen.",
+      "Kedua Mesin Huller Sederhana: Untuk skala penjualan, petani atau koperasi lokal menggunakan mesin huller bertenaga diesel. Mesin ini mengupas kulit tanduk dan memisahkan biji dari serpihan kulitnya."
+    ],
+    "conservationTitle": "Sortir Akhir:",
     "conservation": [
-      "Training program for young generation",
-      "Documentation of traditional construction techniques",
-      "Research on environmentally friendly materials and methods",
-      "Revitalization of damaged old houses",
-      "Integration with sustainable tourism"
+      "Biji disortir ulang secara manual. Hanya biji terbaik yang akan masuk ke karung ekspor atau sangrai lokal."
     ],
-    "quote": "The Centipede House is proof of ancestral wisdom in creating dwellings that harmonize with nature"
+    
+    "quote": "Jika anda ingin mendapatkan Biji kopi kwau bisa langsung datang ke Kampung Kwau, Distrik Mokwam, atau bisa hubungi Kontak di bawah ini",
+    "contact": "Bapak Hans Mandacan (Whatsapp: +62821 9946 9312)"
+    
   },
    "sayur": {
-    "title": "Centipede House - Traditional Arfak Architecture",
-    "description": "The Centipede House is one of the unique attractions in Kwau Village. This house is made of wood and has a distinctive design, with many supporting pillars that resemble centipede legs. This traditional architecture reflects local wisdom in adapting to nature.",
-    "constructionTitle": "Construction and Materials:",
-    "construction": [
-      "Main Pillars: Ulin wood or ironwood that is durable",
-      "Walls: Combination of wood and bamboo with natural ventilation",
-      "Roof: Sago or rumbia leaves that are waterproof",
-      "Floor: Wooden planks with gaps for air circulation",
-      "Foundation: River stones as pillar base"
-    ],
-    "philosophyTitle": "Philosophy and Meaning:",
-    "philosophy": [
-      "\"Centipede\": Symbolizing community stability and strength",
-      "Elevation: Stilt house as protection from wild animals",
-      "Orientation: Facing east to welcome sunlight",
-      "Communal Space: Central area for gathering and rituals",
-      "Nature Harmony: Design that integrates with environment"
-    ],
-    "functionTitle": "Function and Rooms:",
-    "function": [
-      "Main Room: Extended family gathering area",
-      "Bedroom: Separate compartments for privacy",
-      "Kitchen: Cooking area with traditional fireplace",
-      "Granary: Storage for harvest and equipment",
-      "Veranda: Place to receive guests and daily activities"
-    ],
-    "advantagesTitle": "Architectural Advantages:",
-    "advantages": [
-      "Earthquake Resistant: Flexible structure with traditional joints",
-      "Natural Ventilation: Optimal air circulation",
-      "Environmentally Friendly: 100% natural materials",
-      "Energy Efficient: No air conditioning needed",
-      "Easy to Repair: Practical modular system"
-    ],
-    "experienceTitle": "Tourist Experience:",
+    "title": "Kwau Village Vegetables",
+    "description": "Kwau Village is not only famous for its natural beauty and diverse birdlife, but also for its fresh, natural agricultural produce. Local residents grow a variety of vegetables such as mustard greens, cabbage, spinach, tomatoes, carrots, chilies, tubers, and many more in small gardens around their homes and on the mountain slopes. Vegetables are grown traditionally without chemicals, using organic fertilizers and clean water from mountain springs. The process from planting to harvest is carried out independently by the villagers, resulting in high-quality vegetables with a natural flavor. These agricultural products are not only for daily consumption but also serve as a potential source of local economic and food security. Tourists visiting Kwau can see firsthand how vegetables are grown and even participate in gardening activities with the residents.",
+    "experienceTitle": "Vegetables from Kwau Village are also sold at Wosi Market:",
     "experience": [
-      "Stay in authentic traditional house",
-      "Learn traditional construction techniques",
-      "Workshop making centipede house miniature",
-      "Hear stories and legends from tribal elders",
-      "Experience communal life of Arfak community"
+      "Papuan mothers from Kwau bring their garden produce to Wosi Market in a rented pickup truck. Those looking for healthy, local food can shop directly at Wosi Market, from the Papuan mothers from Kwau Village. Every vegetable you buy not only supports the local economy, but also supports the spirit and hope of Kwau Village, so that the community can continue farming with pride."
     ],
-    "conservationTitle": "Conservation and Preservation:",
-    "conservation": [
-      "Training program for young generation",
-      "Documentation of traditional construction techniques",
-      "Research on environmentally friendly materials and methods",
-      "Revitalization of damaged old houses",
-      "Integration with sustainable tourism"
-    ],
-    "quote": "The Centipede House is proof of ancestral wisdom in creating dwellings that harmonize with nature"
+    "quote": "If you want to get vegetables from Kwau Village, you can come directly to Kwau Village, Mokwam District or you can come directly to Wosi Market, it is located in front of the Hilux Car parking lot. Enter inside and you can also contact the contact below.",
+     "contact": "Mr. Hans Mandacan (Whatsapp: +62821 9946 9312)"
   }
 } 
