@@ -195,9 +195,6 @@ const BookingStatus = () => {
                                 <p><strong>Nama:</strong> {booking.customer?.name}</p>
                                 <p><strong>Email:</strong> {booking.customer?.email}</p>
                                 <p><strong>Telepon:</strong> {booking.customer?.phone}</p>
-                                
-                                <h6 className="mt-3">Harga</h6>
-                                <p><strong>Total:</strong> {formatCurrency(booking.pricing?.total)}</p>
                               </div>
                             </div>
                             
@@ -208,7 +205,7 @@ const BookingStatus = () => {
                                   {booking.activities.map((activity, idx) => (
                                     <li key={idx}>
                                       <i className="fa fa-check-circle text-success me-2"></i>
-                                      {activity.name} - {formatCurrency(activity.price)}
+                                      {activity.name}
                                     </li>
                                   ))}
                                 </ul>

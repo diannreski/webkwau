@@ -66,11 +66,22 @@ async function createDatabase() {
           FOREIGN KEY (package_id) REFERENCES packages(id)
       );
 
+      -- 4. TABEL BOOKING STATUS HISTORY (Riwayat perubahan status)
+      CREATE TABLE IF NOT EXISTS booking_status_history (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          booking_id INTEGER NOT NULL,
+          status VARCHAR(20) NOT NULL,
+          notes TEXT,
+          created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+          FOREIGN KEY (booking_id) REFERENCES bookings(id)
+      );
+
       -- INDEXES
       CREATE INDEX IF NOT EXISTS idx_bookings_number ON bookings(booking_number);
       CREATE INDEX IF NOT EXISTS idx_bookings_customer ON bookings(customer_id);
       CREATE INDEX IF NOT EXISTS idx_bookings_status ON bookings(status);
       CREATE INDEX IF NOT EXISTS idx_customers_email ON customers(email);
+      CREATE INDEX IF NOT EXISTS idx_status_history_booking ON booking_status_history(booking_id);
     `;
 
     db.exec(schema);

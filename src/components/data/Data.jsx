@@ -44,11 +44,7 @@ export const navList = [
         path: "/birdmapping",
         text: "birdmapping",
       },
-      {
-        id: 55,
-        path: "/dashboard",
-        text: "dashboard",
-      },
+
     ],
   },
   {

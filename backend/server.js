@@ -59,6 +59,61 @@ app.get('/api/bookings', (req, res) => {
   }
 });
 
+// GET /api/bookings/by-number/:bookingNumber - Get booking by booking number
+app.get('/api/bookings/by-number/:bookingNumber', (req, res) => {
+  try {
+    const { bookingNumber } = req.params;
+    const booking = db.prepare(`
+      SELECT 
+        b.*,
+        c.name as customer_name,
+        c.email as customer_email,
+        c.phone as customer_phone,
+        c.nationality as customer_nationality,
+        p.name as package_name
+      FROM bookings b
+      JOIN customers c ON b.customer_id = c.id
+      JOIN packages p ON b.package_id = p.id
+      WHERE b.booking_number = ?
+    `).get(bookingNumber);
+
+    if (!booking) {
+      return res.status(404).json({ success: false, error: 'Booking not found' });
+    }
+
+    res.json({ success: true, data: booking });
+  } catch (error) {
+    console.error('❌ Error getting booking by number:', error);
+    res.status(500).json({ success: false, error: 'Failed to get booking by number' });
+  }
+});
+
+// GET /api/bookings/by-email/:email - Get bookings by customer email
+app.get('/api/bookings/by-email/:email', (req, res) => {
+  try {
+    const { email } = req.params;
+    const bookings = db.prepare(`
+      SELECT 
+        b.*,
+        c.name as customer_name,
+        c.email as customer_email,
+        c.phone as customer_phone,
+        c.nationality as customer_nationality,
+        p.name as package_name
+      FROM bookings b
+      JOIN customers c ON b.customer_id = c.id
+      JOIN packages p ON b.package_id = p.id
+      WHERE c.email = ?
+      ORDER BY b.created_at DESC
+    `).all(email);
+
+    res.json({ success: true, data: bookings, count: bookings.length });
+  } catch (error) {
+    console.error('❌ Error getting bookings by email:', error);
+    res.status(500).json({ success: false, error: 'Failed to get bookings by email' });
+  }
+});
+
 // PUT /api/bookings/:id/status - Update booking status
 app.put('/api/bookings/:id/status', (req, res) => {
   try {
@@ -176,11 +231,11 @@ app.post('/api/bookings', (req, res) => {
         throw new Error(`Package not found: ${bookingData.package.name}`);
       }
 
-      // Calculate total
-      const adultPrice = bookingData.adult_price || 250000;
-      const childPrice = bookingData.child_price || 125000;
-      const subtotal = (adultPrice * bookingData.adults_count) + (childPrice * bookingData.children_count);
-      const taxAmount = subtotal * 0.1;
+      // Calculate total (support no-price flow)
+      const adultPrice = Number(bookingData.adult_price) || 0;
+      const childPrice = Number(bookingData.child_price) || 0;
+      const subtotal = (adultPrice * (bookingData.adults_count || 0)) + (childPrice * (bookingData.children_count || 0));
+      const taxAmount = subtotal > 0 ? subtotal * 0.1 : 0;
       const totalAmount = subtotal + taxAmount;
 
       // Create booking

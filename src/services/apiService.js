@@ -43,6 +43,12 @@ export const bookingAPI = {
   // Get all bookings
   getAll: () => apiRequest('/bookings'),
 
+  // Get booking by number
+  getByNumber: (bookingNumber) => apiRequest(`/bookings/by-number/${encodeURIComponent(bookingNumber)}`),
+
+  // Get bookings by customer email
+  getByEmail: (email) => apiRequest(`/bookings/by-email/${encodeURIComponent(email)}`),
+
   // Create new booking
   create: (bookingData) => apiRequest('/bookings', {
     method: 'POST',

@@ -65,10 +65,10 @@ const BookingPage = () => {
         adult_price: 0,
         child_price: 0,
         special_requests: {
-          dietaryRestrictions: data.dietaryRestrictions || '',
-          accessibilityNeeds: data.accessibilityNeeds || '',
-          specialOccasion: data.specialOccasion || '',
-          additionalNotes: data.additionalNotes || ''
+          dietaryRestrictions: '',
+          accessibilityNeeds: '',
+          specialOccasion: '',
+          additionalNotes: ''
         }
       };
 
@@ -354,45 +354,7 @@ const BookingPage = () => {
                           />
                         </div>
                         
-                        <div className="col-12">
-                          <h6 className="mt-3">{t('pages:booking.step4.specialRequests')} (Optional)</h6>
-                        </div>
-                        <div className="col-md-6">
-                          <label className="form-label">{t('pages:booking.step4.dietaryRestrictions')}</label>
-                          <input 
-                            type="text" 
-                            className="form-control" 
-                            placeholder={t('pages:booking.step4.placeholder.dietaryRestrictions')}
-                            {...register('dietaryRestrictions')}
-                          />
-                        </div>
-                        <div className="col-md-6">
-                          <label className="form-label">{t('pages:booking.step4.accessibilityNeeds')}</label>
-                          <input 
-                            type="text" 
-                            className="form-control" 
-                            placeholder={t('pages:booking.step4.placeholder.accessibilityNeeds')}
-                            {...register('accessibilityNeeds')}
-                          />
-                        </div>
-                        <div className="col-md-6">
-                          <label className="form-label">{t('pages:booking.step4.specialOccasion')}</label>
-                          <input 
-                            type="text" 
-                            className="form-control" 
-                            placeholder={t('pages:booking.step4.placeholder.specialOccasion')}
-                            {...register('specialOccasion')}
-                          />
-                        </div>
-                        <div className="col-12">
-                          <label className="form-label">{t('pages:booking.step4.additionalNotes')}</label>
-                          <textarea 
-                            className="form-control" 
-                            rows="3"
-                            placeholder={t('pages:booking.step4.placeholder.additionalNotes')}
-                            {...register('additionalNotes')}
-                          ></textarea>
-                        </div>
+
                       </div>
 
                       <div className="d-flex justify-content-between mt-4">
