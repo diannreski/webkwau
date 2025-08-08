@@ -6,21 +6,14 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Heading from "../components/common/Heading";
-import { getRoomItems, getAdditionalActivities } from '../components/data/Data';
-import { createBooking, calculateTotalPrice } from '../services/bookingService';
 import { bookingAPI } from '../services/apiService';
 
 const BookingPage = () => {
   const { t } = useTranslation();
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const roomItems = getRoomItems(t);
-  const additionalActivities = getAdditionalActivities(t);
   const [currentStep, setCurrentStep] = useState(1);
-  const [selectedPackage, setSelectedPackage] = useState(null);
   const [checkInDate, setCheckInDate] = useState(null);
   const [checkOutDate, setCheckOutDate] = useState(null);
-  const [selectedActivities, setSelectedActivities] = useState([]);
-  const [totalPricing, setTotalPricing] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [bookingResult, setBookingResult] = useState(null);
 
@@ -33,41 +26,7 @@ const BookingPage = () => {
     ? Math.ceil((checkOutDate - checkInDate) / (1000 * 60 * 60 * 24))
     : 1;
 
-  // Real-time price calculation
-  useEffect(() => {
-    if (selectedPackage && watchedAdults) {
-      const guests = { 
-        adults: parseInt(watchedAdults) || 1, 
-        children: parseInt(watchedChildren) || 0 
-      };
-      
-      const pricing = calculateTotalPrice(
-        selectedPackage,
-        guests,
-        selectedActivities,
-        duration
-      );
-      setTotalPricing(pricing);
-    }
-  }, [selectedPackage, watchedAdults, watchedChildren, selectedActivities, duration]);
-
-  // Handle package selection
-  const handlePackageSelect = (pkg) => {
-    setSelectedPackage(pkg);
-    setCurrentStep(2);
-  };
-
-  // Handle activity toggle
-  const handleActivityToggle = (activity) => {
-    setSelectedActivities(prev => {
-      const existing = prev.find(a => a.id === activity.id);
-      if (existing) {
-        return prev.filter(a => a.id !== activity.id);
-      } else {
-        return [...prev, activity];
-      }
-    });
-  };
+  // Tidak ada perhitungan harga atau pemilihan paket pada UI
 
   // Handle date validation
   const handleCheckInChange = (date) => {
@@ -79,39 +38,14 @@ const BookingPage = () => {
 
   // Submit booking
   const onSubmit = async (data) => {
-    if (!selectedPackage || !checkInDate || !checkOutDate) {
+    if (!checkInDate || !checkOutDate) {
       toast.error('Harap lengkapi semua data booking');
       return;
     }
 
     setIsSubmitting(true);
     try {
-      const bookingData = {
-        customer: {
-          name: data.customerName,
-          email: data.email,
-          phone: data.phone,
-          nationality: data.nationality,
-          emergencyContact: data.emergencyContact
-        },
-        package: selectedPackage,
-        checkIn: checkInDate.toISOString(),
-        checkOut: checkOutDate.toISOString(),
-        duration,
-        guests: {
-          adults: parseInt(data.adults),
-          children: parseInt(data.children)
-        },
-        activities: selectedActivities,
-        specialRequests: {
-          dietaryRestrictions: data.dietaryRestrictions,
-          accessibilityNeeds: data.accessibilityNeeds,
-          specialOccasion: data.specialOccasion,
-          additionalNotes: data.additionalNotes
-        }
-      };
-
-      // Clean data before sending to API (remove React objects)
+      // Clean data before sending to API (tanpa harga/paket)
       const cleanBookingData = {
         customer: {
           name: data.customerName,
@@ -121,18 +55,15 @@ const BookingPage = () => {
           emergencyContact: data.emergencyContact
         },
         package: {
-          name: selectedPackage.name,
-          price: selectedPackage.price,
-          duration: selectedPackage.duration,
-          maxGuests: selectedPackage.maxGuests
+          name: 'Basic Package'
         },
         check_in_date: checkInDate.toISOString().split('T')[0],
         check_out_date: checkOutDate.toISOString().split('T')[0],
         duration,
         adults_count: parseInt(data.adults),
         children_count: parseInt(data.children),
-        adult_price: totalPricing.adultPrice,
-        child_price: totalPricing.childPrice,
+        adult_price: 0,
+        child_price: 0,
         special_requests: {
           dietaryRestrictions: data.dietaryRestrictions || '',
           accessibilityNeeds: data.accessibilityNeeds || '',
@@ -157,7 +88,7 @@ const BookingPage = () => {
           },
           bookingNumber: apiResult.data.booking_number,
           booking: {
-            packageName: selectedPackage.name,
+            packageName: 'Basic Package',
             checkIn: checkInDate.toISOString(),
             checkOut: checkOutDate.toISOString(),
             duration,
@@ -196,7 +127,7 @@ const BookingPage = () => {
           },
           bookingNumber: apiResult.data.booking_number,
           booking: {
-            packageName: selectedPackage.name,
+            packageName: 'Basic Package',
             checkIn: checkInDate.toISOString(),
             checkOut: checkOutDate.toISOString(),
             duration,
@@ -204,9 +135,6 @@ const BookingPage = () => {
               adults: parseInt(data.adults),
               children: parseInt(data.children)
             }
-          },
-          pricing: {
-            total: totalPricing.total
           },
           specialRequests: {
             dietaryRestrictions: data.dietaryRestrictions || '',
@@ -232,7 +160,7 @@ const BookingPage = () => {
         bookingNumber: apiResult.data.booking_number,
         booking: apiResult.data
       });
-      setCurrentStep(5); // Success step
+      setCurrentStep(3); // Success step
       toast.success('Booking berhasil dibuat!');
       
     } catch (error) {
@@ -253,7 +181,7 @@ const BookingPage = () => {
           <div className="row mb-5">
             <div className="col-12">
               <div className="d-flex justify-content-center">
-                {[1, 2, 3, 4, 5].map((step) => (
+                {[1, 2, 3].map((step) => (
                   <div key={step} className="d-flex align-items-center">
                     <div 
                       className={`rounded-circle d-flex align-items-center justify-content-center ${
@@ -263,7 +191,7 @@ const BookingPage = () => {
                     >
                       {step}
                     </div>
-                    {step < 5 && (
+                    {step < 3 && (
                       <div 
                         className={`bg-${currentStep > step ? 'primary' : 'light'}`}
                         style={{ width: '50px', height: '2px' }}
@@ -274,64 +202,19 @@ const BookingPage = () => {
               </div>
               <div className="d-flex justify-content-center mt-2">
                 <small className="text-muted">
-                  {currentStep === 1 && 'Booking Wisata'}
-                  {currentStep === 2 && 'Tanggal & Tamu'}
-                  {currentStep === 3 && 'Aktivitas Tambahan'}
-                  {currentStep === 4 && 'Data Pribadi'}
-                  {currentStep === 5 && 'Konfirmasi'}
+                  {currentStep === 1 && 'Tanggal & Tamu'}
+                  {currentStep === 2 && 'Data Pribadi'}
+                  {currentStep === 3 && 'Konfirmasi'}
                 </small>
               </div>
             </div>
           </div>
 
           <form onSubmit={handleSubmit(onSubmit)}>
-            {/* Step 1: Package Selection */}
-            {currentStep === 1 && (
-              <div className="row">
-                <div className="col-12">
-                  <h3 className="mb-4 text-center">{t('pages:booking.title')}</h3>
-                  <div className="row g-4">
-                    {roomItems.map((pkg) => (
-                      <div key={pkg.id} className="col-lg-4 col-md-6">
-                        <div className="card h-100 shadow-sm">
-                          <img src={pkg.img} className="card-img-top" alt={pkg.name} style={{height: '200px', objectFit: 'cover'}} />
-                          <div className="card-body d-flex flex-column">
-                            <h5 className="card-title">{pkg.name}</h5>
-                            <p className="text-primary fw-bold fs-5">{pkg.price}</p>
-                            <p className="card-text">{pkg.description}</p>
-                            <div className="mb-3">
-                              <small className="text-muted">
-                                <strong>{t('pages:booking.duration')}:</strong> {pkg.duration} | <strong>{t('pages:booking.maxGuests')}:</strong> {pkg.maxGuests} {t('pages:booking.guests')}
-                              </small>
-                            </div>
-                            <div className="mb-3">
-                              <strong>{t('pages:booking.includes')}:</strong>
-                              <ul className="list-unstyled mt-2">
-                                {Array.isArray(pkg.includes) ? pkg.includes.map((item, idx) => (
-                                  <li key={idx}><i className="fa fa-check text-primary me-2"></i>{item}</li>
-                                )) : (
-                                  <li><i className="fa fa-check text-primary me-2"></i>{pkg.includes}</li>
-                                )}
-                              </ul>
-                            </div>
-                            <button 
-                              type="button"
-                              className="btn btn-primary mt-auto"
-                              onClick={() => handlePackageSelect(pkg)}
-                            >
-                              {t('pages:booking.selectPackage')}
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            )}
+            {/* Step 1 is Date & Guests (rendered below) */}
 
-            {/* Step 2: Date & Guests */}
-            {currentStep === 2 && selectedPackage && (
+            {/* Step 1: Date & Guests */}
+            {currentStep === 1 && (
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <h3 className="mb-4 text-center">{t('pages:booking.step2.title')}</h3>
@@ -393,7 +276,7 @@ const BookingPage = () => {
                         <button 
                           type="button" 
                           className="btn btn-primary"
-                          onClick={() => setCurrentStep(3)}
+                          onClick={() => setCurrentStep(2)}
                           disabled={!checkInDate || !checkOutDate}
                         >
                           {t('pages:booking.next')}
@@ -407,8 +290,8 @@ const BookingPage = () => {
 
   
 
-            {/* Step 3: Personal Information */}
-            {currentStep === 3 && (
+            {/* Step 2: Personal Information */}
+            {currentStep === 2 && (
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <h3 className="mb-4 text-center">{t('pages:booking.step4.title')}</h3>
@@ -516,7 +399,7 @@ const BookingPage = () => {
                         <button 
                           type="button" 
                           className="btn btn-secondary"
-                          onClick={() => setCurrentStep(2)}
+                          onClick={() => setCurrentStep(1)}
                         >
                           {t('pages:booking.back')}
                         </button>
@@ -534,8 +417,8 @@ const BookingPage = () => {
               </div>
             )}
 
-            {/* Step 5: Success */}
-            {currentStep === 5 && bookingResult && (
+            {/* Step 3: Success */}
+            {currentStep === 3 && bookingResult && (
               <div className="row">
                 <div className="col-lg-8 mx-auto text-center">
                   <div className="card">
@@ -547,8 +430,7 @@ const BookingPage = () => {
                       <div className="alert alert-info">
                         <h5>{t('pages:booking.bookingDetails')}</h5>
                         <p><strong>{t('pages:booking.bookingNumber')}:</strong> {bookingResult.bookingNumber}</p>
-                        <p><strong>{t('pages:booking.package')}:</strong> {selectedPackage.name}</p>
-                        <p><strong>{t('pages:booking.total')}:</strong> Rp {totalPricing?.total.toLocaleString()}</p>
+                        
                         <p className="mb-0"><strong>{t('pages:booking.status')}:</strong> {t('pages:booking.waitingConfirmation')}</p>
                       </div>
                       
