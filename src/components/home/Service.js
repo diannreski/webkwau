@@ -87,7 +87,7 @@ export default function Services() {
       
       {/* Modal untuk Pohon Pisang Hutan Raksasa */}
       <Modal isOpen={openModal} onClose={() => setOpenModal(false)}>
-                 <Modal.Header dangerouslySetInnerHTML={{ __html: t('home:services.bananaTree.title') }}></Modal.Header>
+                 <Modal.Header><span dangerouslySetInnerHTML={{ __html: t('home:services.bananaTree.title') }} /></Modal.Header>
         <Modal.Body>
         <p>
         {t('home:services.bananaTree.description')}
@@ -452,9 +452,9 @@ export default function Services() {
           <h6 className="text-primary mb-3">{t('modal:sayur.experienceTitle')}</h6>
           <img src="/assets/img/pasarwosi.JPG" alt="Sayur" className="img-foto" /> 
           <ul className="mb-3">
-            {t('modal:sayur.experience', { returnObjects: true }).map((experience, index) => {
+            {t('modal:sayur.experience', { returnObjects: true }).map((experience, index) => (
               <li key={index}>{experience}</li>
-            })}
+            ))}
           </ul>
           <div className="text-center mb-3">
             <em className="text-muted">"{t('modal:sayur.quote')}"</em>
