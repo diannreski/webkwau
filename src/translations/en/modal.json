@@ -1,6 +1,6 @@
 {
   "bananaTree": {
-    "title": "Giant Forest Banana Tree (Musa Ingens W.Simmonds)",
+    "title": "Giant Forest Banana Tree (<em>Musa Ingens</em> W.Simmonds)",
     "description": "Kwau Village is home to giant forest banana trees, which are one of Papua's endemic species. These banana trees can grow up to 20 meters tall and have very large leaves."
   },
   "birdWatching": {
@@ -285,5 +285,41 @@
     ],
     "quote": "If you want to get vegetables from Kwau Village, you can come directly to Kwau Village, Mokwam District or you can come directly to Wosi Market, it is located in front of the Hilux Car parking lot. Enter inside and you can also contact the contact below.",
      "contact": "Mr. Hans Mandacan (Whatsapp: +62821 9946 9312)"
+  },
+  "usaha": {
+    "title": "Kwau Village Business - Local Economy",
+    "description": "Kwau Village is not only rich in natural tourism potential, but also has various economic businesses managed by local communities. These businesses become important sources of income and demonstrate the creativity and entrepreneurial spirit of the Kwau Village community in developing sustainable local economies.",
+    "businessTypesTitle": "Types of Businesses Managed:",
+    "businessTypes": [
+      "Organic Farming - Cultivation of vegetables and fruits without chemical pesticides",
+      "Traditional Livestock - Development of local chickens, pigs, and cattle",
+      "Handicrafts - Making bamboo weavings and traditional wood carvings",
+      "Tourism Services - Homestay, tour guides, and local transportation",
+      "Food Processing - Production of coffee, honey, and traditional foods"
+    ],
+    "productsTitle": "Kwau Village's Premium Products:",
+    "products": [
+      "Kwau Coffee - Organic coffee from Arfak highlands",
+      "Organic Vegetables - Various fresh vegetables from local gardens",
+      "Forest Honey - Pure honey from Papua forest bees",
+      "Bamboo Crafts - Traditional weavings and household tools",
+      "Traditional Foods - Papeda, grilled fish, and sago"
+    ],
+    "marketTitle": "Markets and Distribution:",
+    "market": [
+      "Wosi Market - Main market for selling agricultural products and crafts",
+      "Local Markets - Traditional markets around Kwau Village",
+      "Direct Export - Product shipments to Manokwari and major cities",
+      "Tourists - Direct sales to visitors and tourists"
+    ],
+    "supportTitle": "Support and Development:",
+    "support": [
+      "Entrepreneurship Training - Programs to improve community business skills",
+      "Capital Access - Business capital assistance from government and financial institutions",
+      "Agricultural Technology - Introduction of modern and organic farming techniques",
+      "Digital Marketing - Training in online marketing and social media"
+    ],
+    "quote": "Kwau Village's local businesses are real proof that indigenous communities can develop sustainable economies while preserving their culture and natural environment.",
+    "contact": "Mr. Hans Mandacan (Whatsapp: +62821 9946 9312)"
   }
 } 

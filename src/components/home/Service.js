@@ -15,6 +15,7 @@ export default function Services() {
   const [openHouseModal, setOpenHouseModal] = useState(false)
   const [openKopiModal, setOpenKopiModal] = useState(false)
   const [openSayurModal, setOpenSayurModal] = useState(false)
+  const [openUsahaModal, setOpenUsahaModal] = useState(false)
 
   const handleServiceClick = (serviceName) => {
     if (serviceName === "birdWatching") {
@@ -33,6 +34,8 @@ export default function Services() {
       setOpenKopiModal(true);
     } else if (serviceName === "sayur") {
       setOpenSayurModal(true);
+    } else if (serviceName === "usaha") {
+      setOpenUsahaModal(true);
     }
   }
 
@@ -55,7 +58,7 @@ export default function Services() {
                     <i className="fa fa-spa fa-2x text-primary"></i>
                     </div>
                   </div>
-                  <h5 className="mb-3">{t('home:services.bananaTree.title')}</h5>
+                                     <h5 className="mb-3" dangerouslySetInnerHTML={{ __html: t('home:services.bananaTree.title') }}></h5>
                   <p className="text-body mb-0">{t('home:services.bananaTree.description')}</p>
                 </a>
               </div>
@@ -84,7 +87,7 @@ export default function Services() {
       
       {/* Modal untuk Pohon Pisang Hutan Raksasa */}
       <Modal isOpen={openModal} onClose={() => setOpenModal(false)}>
-        <Modal.Header>{t('home:services.bananaTree.title')}</Modal.Header>
+                 <Modal.Header dangerouslySetInnerHTML={{ __html: t('home:services.bananaTree.title') }}></Modal.Header>
         <Modal.Body>
         <p>
         {t('home:services.bananaTree.description')}
@@ -449,15 +452,61 @@ export default function Services() {
           <h6 className="text-primary mb-3">{t('modal:sayur.experienceTitle')}</h6>
           <img src="/assets/img/pasarwosi.JPG" alt="Sayur" className="img-foto" /> 
           <ul className="mb-3">
-            {t('modal:sayur.experience', { returnObjects: true }).map((experience, index) => (
+            {t('modal:sayur.experience', { returnObjects: true }).map((experience, index) => {
               <li key={index}>{experience}</li>
-            ))}
+            })}
           </ul>
           <div className="text-center mb-3">
             <em className="text-muted">"{t('modal:sayur.quote')}"</em>
           </div>
           <div className="text-center mb-3">
             <em className="text-muted">"{t('modal:kopi.contact')}"</em>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Modal.DismissButton className="btn btn-secondary">{t('common:close')}</Modal.DismissButton>
+        </Modal.Footer>
+      </Modal>
+
+      {/* Modal untuk Usaha Kampung Kwau */}
+      <Modal isOpen={openUsahaModal} onClose={() => setOpenUsahaModal(false)}>
+        <Modal.Header>{t('modal:usaha.title')}</Modal.Header>
+        <Modal.Body>
+          <p>{t('modal:usaha.description')}</p>
+          
+          <h6 className="text-primary mt-4 mb-3">{t('modal:usaha.businessTypesTitle')}</h6>
+          <ul className="mb-3">
+            {t('modal:usaha.businessTypes', { returnObjects: true }).map((business, index) => (
+              <li key={index}><strong>{business.split(' - ')[0]}</strong> - {business.split(' - ')[1]}</li>
+            ))}
+          </ul>
+
+          <h6 className="text-primary mb-3">{t('modal:usaha.productsTitle')}</h6>
+          <ul className="mb-3">
+            {t('modal:usaha.products', { returnObjects: true }).map((product, index) => (
+              <li key={index}><strong>{product.split(' - ')[0]}</strong> - {product.split(' - ')[1]}</li>
+            ))}
+          </ul>
+
+          <h6 className="text-primary mb-3">{t('modal:usaha.marketTitle')}</h6>
+          <ul className="mb-3">
+            {t('modal:usaha.market', { returnObjects: true }).map((market, index) => (
+              <li key={index}>{market}</li>
+            ))}
+          </ul>
+
+          <h6 className="text-primary mb-3">{t('modal:usaha.supportTitle')}</h6>
+          <ul className="mb-4">
+            {t('modal:usaha.support', { returnObjects: true }).map((support, index) => (
+              <li key={index}>{support}</li>
+            ))}
+          </ul>
+
+          <div className="text-center mb-3">
+            <em className="text-muted">"{t('modal:usaha.quote')}"</em>
+          </div>
+          <div className="text-center mb-3">
+            <em className="text-muted">"{t('modal:usaha.contact')}"</em>
           </div>
         </Modal.Body>
         <Modal.Footer>

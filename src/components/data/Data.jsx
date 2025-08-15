@@ -162,14 +162,19 @@ export const services = [
     discription: "house",
   },
   {
-    icon: <i className="fa fa-house-user fa-2x text-primary"></i>,
+    icon: <i className="fa fa-coffee fa-2x text-primary"></i>,
     name: "kopi",
     discription: "kopi",
   },
   {
-    icon: <i className="fa fa-house-user fa-2x text-primary"></i>,
+    icon: <i className="fa fa-carrot fa-2x text-primary"></i>,
     name: "sayur",
     discription: "sayur",
+  },
+  {
+    icon: <i className="fa fa-store fa-2x text-primary"></i>,
+    name: "usaha",
+    discription: "usaha",
   }
 ];
 export const team = [
@@ -316,7 +321,6 @@ export const getRoomItems = (t) => [
   {
     id: 1,
     img: "/assets/img/Home.JPG",
-    price: t('pages:tourPackage.packages.basic.price'),
     basePrice: 250000,
     name: t('pages:tourPackage.packages.basic.name'),
     duration: t('pages:tourPackage.packages.basic.duration'),

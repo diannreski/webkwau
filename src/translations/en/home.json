@@ -8,7 +8,7 @@
     "title": "Some Local Potentials Owned by",
     "subtitle": "Kwau Village",
     "bananaTree": {
-      "title": "Giant Forest Banana Tree (Musa Ingens W.Simmonds)",
+      "title": "Giant Forest Banana Tree (<em>Musa Ingens</em> W.Simmonds)",
       "description": "Kwau Village is home to giant forest banana trees, which are one of Papua's endemic species. These banana trees can grow up to 20 meters tall and have very large leaves."
     },
     "birdWatching": {
@@ -60,6 +60,10 @@
      "sayur": {
       "title": "Vegetable",
       "description": "Kwau Village is renowned not only for its natural beauty and diverse birdlife, but also for its fresh, natural produce. Locals grow a variety of vegetables, including mustard greens, cabbage, spinach, tomatoes, carrots, chilies, tubers, and many more, in small gardens around their homes and on the mountain slopes."
+    },
+    "usaha": {
+      "title": "Kwau Village Business",
+      "description": "Kwau Village is not only rich in natural tourism potential, but also has various economic businesses managed by local communities. These businesses become important sources of income and demonstrate the creativity and entrepreneurial spirit of the Kwau Village community."
     }
   },
   "team": {

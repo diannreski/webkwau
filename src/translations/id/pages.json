@@ -108,25 +108,24 @@
     "pricing": "Rincian Biaya",
     "createdAt": "Tanggal Booking"
   },
-  "tourPackage": {
-    "title": "Paket Wisata",
-    "heading": "Jika Anda Berkunjung Ke Kampung Kwau, Bisa Booking disini",
-    "packages": {
-      "basic": {
-        "name": "Home Stay",
-        "description": "Kampung Wisata Kwau yang mencakup akomodasi homestay, makanan lokal, dan aktivitas birdwatching dengan guide lokal berpengalaman.",
-        "price": "Rp 250.000/malam",
-        "duration": "2D1N",
-        "maxGuests": 4,
-        "includes": [
-          "1 malam homestay",
-          "3x makanan lokal",
-          "Birdwatching tour (3 jam)",
-          "Guide lokal",
-          "Transportasi lokal"
-        ]
-      }
-    },
+      "tourPackage": {
+      "title": "Paket Wisata",
+      "heading": "Jika Anda Berkunjung Ke Kampung Kwau, Bisa Booking disini",
+      "packages": {
+        "basic": {
+          "name": "Home Stay",
+          "description": "Kampung Wisata Kwau yang mencakup akomodasi homestay, makanan lokal, dan aktivitas birdwatching dengan guide lokal berpengalaman.",
+          "duration": "2D1N",
+          "maxGuests": 4,
+          "includes": [
+            "1 malam homestay",
+            "3x makanan lokal",
+            "Birdwatching tour (3 jam)",
+            "Guide lokal",
+            "Transportasi lokal"
+          ]
+        }
+      },
     "facilities": {
       "bed": "bed",
       "bath": "bath",

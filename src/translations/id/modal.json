@@ -1,6 +1,6 @@
 {
   "bananaTree": {
-    "title": "Pohon Pisang Hutan Raksasa (Musa Ingens W.Simmonds)",
+    "title": "Pohon Pisang Hutan Raksasa (<em>Musa Ingens</em> W.Simmonds)",
     "description": "Kampung Kwau menjadi habitat dari pohon pisang hutan raksasa yang merupakan salah satu spesies endemik Papua. Pohon pisang ini dapat tumbuh hingga tinggi 20 meter dan memiliki daun yang sangat besar."
   },
   "birdWatching": {
@@ -286,6 +286,42 @@
       "Mama-mama Papua dari Kwau membawa hasil kebun mereka ke Pasar Wosi dengan mobil bak terbuka yang mereka sewa. Anda yang ingin makan sehat dan lokal, bisa beli langsung di pasar wosi, di mama-mama Papua dari kampung Kwau.Setiap sayur yang Anda beli, bukan hanya mendukung ekonomi lokal, anda juga menyambung semangat dan harapan dari Kampung Kwau, agar masyarakat di sana bisa tetap bertani dengan bangga."
     ],
     "quote": "Jika anda ingin mendapatkan Sayur-sayur dari Kampung Kwau bisa langsung datang ke Kampung Kwau, Distrik Mokwam atau bisa langsung datang ke Pasar Wosi, letaknya di depan parkiran Mobil Hilux Masuk kedalam dan bisa juga hubungi Kontak di bawah ini",
+    "contact": "Bapak Hans Mandacan (Whatsapp: +62821 9946 9312)"
+  },
+  "usaha": {
+    "title": "Usaha Kampung Kwau - Ekonomi Lokal",
+    "description": "Kampung Kwau tidak hanya kaya akan potensi wisata alam, tetapi juga memiliki berbagai usaha ekonomi yang dikelola oleh masyarakat lokal. Usaha-usaha ini menjadi sumber penghasilan penting dan menunjukkan kreativitas serta semangat wirausaha masyarakat Kampung Kwau dalam mengembangkan ekonomi lokal yang berkelanjutan.",
+    "businessTypesTitle": "Jenis Usaha yang Dikelola:",
+    "businessTypes": [
+      "Pertanian Organik - Budidaya sayuran dan buah-buahan tanpa pestisida kimia",
+      "Peternakan Tradisional - Pengembangan ternak ayam, babi, dan sapi lokal",
+      "Kerajinan Tangan - Pembuatan anyaman bambu dan ukiran kayu tradisional",
+      "Jasa Wisata - Homestay, pemandu wisata, dan transportasi lokal",
+      "Pengolahan Makanan - Produksi kopi, madu, dan makanan tradisional"
+    ],
+    "productsTitle": "Produk Unggulan Kampung Kwau:",
+    "products": [
+      "Kopi Kwau - Kopi organik dari dataran tinggi Arfak",
+      "Sayur Organik - Berbagai jenis sayuran segar dari kebun lokal",
+      "Madu Hutan - Madu murni dari lebah hutan Papua",
+      "Kerajinan Bambu - Anyaman dan alat rumah tangga tradisional",
+      "Makanan Tradisional - Papeda, ikan bakar, dan sagu"
+    ],
+    "marketTitle": "Pasar dan Distribusi:",
+    "market": [
+      "Pasar Wosi - Pasar utama untuk menjual hasil pertanian dan kerajinan",
+      "Pasar Lokal - Pasar tradisional di sekitar Kampung Kwau",
+      "Ekspor Langsung - Pengiriman produk ke Manokwari dan kota besar",
+      "Wisatawan - Penjualan langsung kepada pengunjung dan wisatawan"
+    ],
+    "supportTitle": "Dukungan dan Pengembangan:",
+    "support": [
+      "Pelatihan Kewirausahaan - Program peningkatan skill bisnis masyarakat",
+      "Akses Modal - Bantuan modal usaha dari pemerintah dan lembaga keuangan",
+      "Teknologi Pertanian - Pengenalan teknik pertanian modern dan organik",
+      "Pemasaran Digital - Pelatihan pemasaran online dan media sosial"
+    ],
+    "quote": "Usaha lokal Kampung Kwau adalah bukti nyata bahwa masyarakat adat dapat mengembangkan ekonomi yang berkelanjutan sambil melestarikan budaya dan lingkungan alam mereka.",
     "contact": "Bapak Hans Mandacan (Whatsapp: +62821 9946 9312)"
   }  
 

@@ -8,7 +8,7 @@
     "title": "Beberapa Potensi Lokal Yang Dimiliki",
     "subtitle": "Kampung Kwau",
     "bananaTree": {
-      "title": "Pohon Pisang Hutan Raksasa (Musa Ingens W.Simmonds)",
+      "title": "Pohon Pisang Hutan Raksasa (<em>Musa Ingens</em> W.Simmonds)",
       "description": "Kampung Kwau menjadi habitat dari pohon pisang hutan raksasa yang merupakan salah satu spesies endemik Papua. Pohon pisang ini dapat tumbuh hingga tinggi 20 meter dan memiliki daun yang sangat besar."
     },
     "birdWatching": {
@@ -58,8 +58,12 @@
       "description": "Kampung Kwau, yang terletak di Distrik Mokwam, Kabupaten Manokwari, tidak hanya dikenal sebagai destinasi birdwatching yang mendunia, tetapi juga menyimpan potensi lokal yang luar biasa dalam bidang pertanian—khususnya kopi."
     },
     "sayur": {
-      "title": "Sayur",
+      "title": "Sayur dan buah",
       "description": "Kampung Kwau tidak hanya terkenal karena keindahan alam dan keragaman burungnya, tetapi juga karena hasil pertanian yang segar dan alami. Masyarakat setempat menanam berbagai sayur-sayuran seperti sawi, kol, bayam, tomat, wortel, cabai, umbi-umbian dan lain-lain, masih banyak lagi di kebun-kebun kecil di sekitar rumah dan lereng pegunungan."
+    },
+    "usaha": {
+      "title": "Usaha Kampung Kwau",
+      "description": "Kampung Kwau tidak hanya kaya akan potensi wisata alam, tetapi juga memiliki berbagai usaha ekonomi yang dikelola oleh masyarakat lokal. Usaha-usaha ini menjadi sumber penghasilan penting dan menunjukkan kreativitas serta semangat wirausaha masyarakat Kampung Kwau."
     }
   },
   "team": {

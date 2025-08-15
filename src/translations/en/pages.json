@@ -121,7 +121,6 @@
       "basic": {
         "name": "Home Stay",
         "description": "Basic tour package covering homestay accommodation, local food, and birdwatching activities with an experienced local guide.",
-        "price": "Rp 250.000/night",
         "duration": "2D1N",
         "maxGuests": 4,
         "includes": [
