@@ -95,17 +95,17 @@ export const carouselData = [
 
 export const Foto = [
   {
-    img: "/assets/img/Sayur.JPG",
-    title: "Kebun Sayur",
-    subtitle: "Kampung Kwau",
+    img: "/assets/img/kampungkwau.png",
+    title: "Kampung Wisata Kwau",
+    subtitle: "Selamat Datang di",
   },
   {
-    img: "/assets/img/Sayur2.JPG",
-    subtitle: "Kampung Kwau",
+    img: "/assets/img/homestay.png",
+    subtitle: "Home Stay Kampung Kwau",
   },
   {
-    img: "/assets/img/kopi.JPG",
-    title: "Kebun Kopi",
+    img: "/assets/img/rumahkakiseribu.png",
+    title: "Rumah Kaki Seribu",
     subtitle: "Kampung Kwau",
   },
 ];
@@ -180,23 +180,23 @@ export const services = [
 export const team = [
   {
     image: "/assets/img/kepalasuku.jpg",
-    name: "Kepala Suku",
-    designation: "",
+    name: "Semuel Mandacan",
+    designation: "Kepala Suku",
   },
   {
     image: "/assets/img/kepalakampung.jpg",
-    name: "KepalaKampung",
-    designation: "",
+    name: "Yustinus Mandacan",
+    designation: "Kepala Kampung",
   },
   {
-    image: "/assets/img/user.png",
-    name: "SekretariKampung",
-    designation: "",
+    image: "/assets/img/sekertariskampung.jpg",
+    name: "Mesak Ullo",
+    designation: "Sekretaris Kampung",
   },
   {
-    image: "/assets/img/user.png",
-    name: "BendaharaKampung",
-    designation: "",
+    image: "/assets/img/bendahara.jpg",
+    name: "Rambo Sagu",
+    designation: "Bendahara Kampung",
   },
    
 ];

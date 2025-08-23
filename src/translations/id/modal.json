@@ -4,7 +4,7 @@
     "description": "Kampung Kwau menjadi habitat dari pohon pisang hutan raksasa yang merupakan salah satu spesies endemik Papua. Pohon pisang ini dapat tumbuh hingga tinggi 20 meter dan memiliki daun yang sangat besar."
   },
   "birdWatching": {
-    "title": "Birds Watching - Burung Endemik Papua",
+    "title": "Pengamatan burung - Burung Endemik Papua",
     "description": "Daya Tarik Utama Kampung Kwau adalah Burung Endemik Papua, salah satunya Western Parotia yang dinikmati melalui kegiatan Birds Watching. Kampung Kwau adalah rumah bagi berbagai spesies burung endemik Papua yang langka dan eksotis.",
     "speciesTitle": "Spesies Burung yang Dapat Diamati:",
     "species": [
@@ -190,51 +190,41 @@
     "description": "Rumah Kaki Seribu adalah salah satu daya tarik unik di Kampung Kwau. Rumah ini terbuat dari kayu dan memiliki desain yang khas, dengan banyak tiang penyangga yang menyerupai kaki seribu. Arsitektur tradisional ini mencerminkan kearifan lokal dalam beradaptasi dengan alam.",
     "constructionTitle": "Konstruksi dan Material:",
     "construction": [
-      "Tiang Utama: Kayu ulin atau kayu besi yang tahan lama",
-      "Dinding: Kombinasi kayu dan bambu dengan ventilasi alami",
-      "Atap: Daun sagu atau rumbia yang kedap air",
-      "Lantai: Papan kayu dengan celah untuk sirkulasi udara",
-      "Fondasi: Batu sungai sebagai alas tiang"
+     "Rumah Kaki Seribu dibangun menggunakan material alami yang tersedia di sekitar hutan, seperti bambu, kayu, dan daun sagu/daun rumbia untuk atap. Tiang-tiang penyangganya banyak dan rapat, sehingga terlihat seperti kaki seribu, yang menjadi ciri khas rumah ini. Bentuk panggung tinggi berfungsi untuk melindungi rumah dari kelembaban tanah, binatang buas, serta memudahkan sirkulasi udara."
     ],
     "philosophyTitle": "Filosofi dan Makna:",
     "philosophy": [
-      "\"Kaki Seribu\": Melambangkan stabilitas dan kekuatan komunitas",
-      "Elevasi: Rumah panggung sebagai perlindungan dari binatang buas",
-      "Orientasi: Menghadap timur untuk menyambut cahaya matahari",
-      "Ruang Komunal: Area tengah untuk berkumpul dan ritual",
-      "Harmoni Alam: Desain yang menyatu dengan lingkungan"
+      "Filosofi rumah ini erat kaitannya dengan kebersamaan dan gotong royong. Banyaknya tiang penyangga melambangkan kekuatan yang tercipta dari kebersamaan masyarakat. Selain itu, rumah panggung ini menjadi simbol adaptasi manusia dengan alam—selaras dengan lingkungan sekitar pegunungan Arfak."
     ],
     "functionTitle": "Fungsi dan Ruangan:",
     "function": [
-      "Ruang Utama: Area berkumpul keluarga besar",
-      "Ruang Tidur: Bilik-bilik terpisah untuk privasi",
-      "Dapur: Area memasak dengan perapian tradisional",
-      "Lumbung: Penyimpanan hasil panen dan peralatan",
-      "Teras: Tempat menerima tamu dan aktivitas harian"
+      "Tempat tinggal bagi masyarakat Arfak.",
+      "Balai pertemuan adat untuk musyawarah, upacara adat, atau kegiatan komunal.",
+      "Ruang multifungsi: bagian dalam rumah tidak terbagi banyak sekat, sehingga bisa dipakai untuk tidur, menyimpan hasil bumi, atau menerima tamu."
     ],
     "advantagesTitle": "Keunggulan Arsitektur:",
     "advantages": [
-      "Tahan Gempa: Struktur fleksibel dengan sambungan tradisional",
-      "Ventilasi Alami: Sirkulasi udara yang optimal",
-      "Ramah Lingkungan: Material 100% dari alam",
-      "Efisiensi Energi: Tidak memerlukan pendingin ruangan",
-      "Mudah Diperbaiki: Sistem modular yang praktis"
+      "Ramah lingkungan karena menggunakan bahan alami.",
+      "Sejuk di dalam berkat sirkulasi udara dari celah-celah bambu.",
+      "Tahan gempa karena konstruksi kayu dan bambu yang fleksibel.",
+      "Tinggi dari tanah memberi perlindungan dari banjir kecil dan hewan liar."
     ],
-    "experienceTitle": "Pengalaman Wisatawan:",
-    "experience": [
-      "Menginap dalam rumah tradisional autentik",
-      "Belajar teknik konstruksi tradisional",
-      "Workshop membuat miniatur rumah kaki seribu",
-      "Mendengar cerita dan legenda dari tetua adat",
-      "Merasakan kehidupan komunal masyarakat Arfak"
-    ],
+  "experienceTitle": "Pengalaman Wisatawan:",
+"experience": [
+  "Bagi wisatawan yang berkunjung ke Kampung Kwau dan menginap di Rumah Kaki Seribu, mereka bisa merasakan:",
+  "Kedekatan dengan alam karena lokasinya di tengah hutan pegunungan.",
+  "Suasana tradisional yang jauh dari kebisingan kota.",
+  "Kehangatan masyarakat lokal yang menyambut dengan keramahan.",
+  "Pengalaman unik tidur di rumah adat khas Papua Barat dengan udara sejuk pegunungan."
+],
+
     "conservationTitle": "Konservasi dan Pelestarian:",
     "conservation": [
-      "Program pelatihan untuk generasi muda",
-      "Dokumentasi teknik konstruksi tradisional",
-      "Penelitian material dan metode ramah lingkungan",
-      "Revitalisasi rumah-rumah tua yang rusak",
-      "Integrasi dengan pariwisata berkelanjutan"
+      "Masyarakat Kampung Kwau bersama pemerintah daerah dan komunitas pecinta budaya melakukan upaya pelestarian dengan:",
+      "Mengajarkan generasi muda cara membangun Rumah Kaki Seribu.",
+      "Menggunakan rumah ini sebagai daya tarik ekowisata, agar wisatawan dapat mengenal sekaligus mendukung ekonomi lokal.",
+      "Mempertahankan bahan alami agar arsitekturnya tidak hilang tergerus modernisasi.",
+      "Mengaitkan rumah dengan konservasi hutan, sebab bahan-bahannya berasal dari alam, sehingga mendorong masyarakat menjaga hutan tetap lestari."
     ],
     
     "quote": "Rumah Kaki Seribu adalah bukti kearifan nenek moyang dalam menciptakan hunian yang selaras dengan alam"
@@ -258,13 +248,9 @@
     "advantages": [
       "Penjemuran Tradisional: Biji kopi dijemur di atas para-para bambu atau pun alas lainnya. Proses ini di keringkan sampe betul-betul kering."
     ],
-    "experienceTitle": "Biji Kopi Setelah di jemur:",
-    "experience": [
-      "Setelah kering, kopi disimpan dalam karung goni di tempat sejuk dan gelap. Ini memberi waktu untuk rasa kopi menjadi stabil."
-    ],
     "coffeeTitle": "Proses Pengupasan Kulit yang sudah di jemur:",
     "coffee": [
-      "Pengupasan Kulit: Ini adalah proses penting dan khas di Kampung Kwau, pengupasan kulit tanduk (kulit keras berwarna keperakan) dilakukan dengan dua cara",
+      "Pengupasan Kulit: Ini adalah proses penting dan khas di Kampung Kwau, pengupasan kulit tanduk (kulit keras berwarna keperakan) dilakukan dengan dua cara:",
       "Pertama Manual Tradisional: Untuk skala kecil atau konsumsi lokal, sebagian petani masih menggunakan alat tumbuk kayu (lesung & alu) untuk memecah kulit ari. Proses ini memakan waktu, tetapi menciptakan kedekatan dengan hasil panen.",
       "Kedua Mesin Huller Sederhana: Untuk skala penjualan, petani atau koperasi lokal menggunakan mesin huller bertenaga diesel. Mesin ini mengupas kulit tanduk dan memisahkan biji dari serpihan kulitnya."
     ],
@@ -283,46 +269,40 @@
     "description": "Kampung Kwau tidak hanya terkenal karena keindahan alam dan keragaman burungnya, tetapi juga karena hasil pertanian yang segar dan alami. Masyarakat setempat menanam berbagai sayur-sayuran seperti sawi, kol, bayam, tomat, wortel,cabai, umbi-umbian dan lain-lain, masih banyak lagi di kebun-kebun kecil di sekitar rumah dan lereng pegunungan. Sayuran ditanam secara tradisional tanpa bahan kimia, menggunakan pupuk organik dan air bersih dari mata air pegunungan. Proses penanaman hingga panen dilakukan secara swadaya oleh warga kampung, sehingga menghasilkan sayur dengan kualitas tinggi dan rasa yang alami. Hasil pertanian ini bukan hanya untuk konsumsi sehari-hari, tetapi juga menjadi potensi ekonomi lokal dan ketahanan pangan. Wisatawan yang datang ke Kwau dapat melihat langsung bagaimana sayuran ditanam dan bahkan ikut serta dalam kegiatan berkebun bersama warga.",
     "experienceTitle": "Sayur dari Kampung Kwau juga berjualan di Pasar Wosi:",
     "experience": [
-      "Mama-mama Papua dari Kwau membawa hasil kebun mereka ke Pasar Wosi dengan mobil bak terbuka yang mereka sewa. Anda yang ingin makan sehat dan lokal, bisa beli langsung di pasar wosi, di mama-mama Papua dari kampung Kwau.Setiap sayur yang Anda beli, bukan hanya mendukung ekonomi lokal, anda juga menyambung semangat dan harapan dari Kampung Kwau, agar masyarakat di sana bisa tetap bertani dengan bangga."
+      "Mama-mama Papua dari Kwau membawa hasil kebun mereka ke Pasar Wosi dengan mobil bak terbuka yang mereka sewa. Anda yang ingin makan sehat dan lokal, bisa beli langsung di pasar wosi, di mama-mama Papua dari kampung Kwau, setiap sayur yang Anda beli, bukan hanya mendukung ekonomi lokal, anda juga menyambung semangat dan harapan dari Kampung Kwau, agar masyarakat di sana bisa tetap bertani dengan bangga."
     ],
     "quote": "Jika anda ingin mendapatkan Sayur-sayur dari Kampung Kwau bisa langsung datang ke Kampung Kwau, Distrik Mokwam atau bisa langsung datang ke Pasar Wosi, letaknya di depan parkiran Mobil Hilux Masuk kedalam dan bisa juga hubungi Kontak di bawah ini",
-    "contact": "Bapak Hans Mandacan (Whatsapp: +62821 9946 9312)"
+    "contact": "Masyarakat Kampung Kwau ( Telepon : 0812 4049 5893 )"
   },
   "usaha": {
     "title": "Usaha Kampung Kwau - Ekonomi Lokal",
     "description": "Kampung Kwau tidak hanya kaya akan potensi wisata alam, tetapi juga memiliki berbagai usaha ekonomi yang dikelola oleh masyarakat lokal. Usaha-usaha ini menjadi sumber penghasilan penting dan menunjukkan kreativitas serta semangat wirausaha masyarakat Kampung Kwau dalam mengembangkan ekonomi lokal yang berkelanjutan.",
-    "businessTypesTitle": "Jenis Usaha yang Dikelola:",
+    "businessTypesTitle": "Minyak Buah Merah:",
     "businessTypes": [
-      "Pertanian Organik - Budidaya sayuran dan buah-buahan tanpa pestisida kimia",
-      "Peternakan Tradisional - Pengembangan ternak ayam, babi, dan sapi lokal",
-      "Kerajinan Tangan - Pembuatan anyaman bambu dan ukiran kayu tradisional",
-      "Jasa Wisata - Homestay, pemandu wisata, dan transportasi lokal",
-      "Pengolahan Makanan - Produksi kopi, madu, dan makanan tradisional"
+      "Minyak Buah Merah ditanggung halal, Produksi URINYAI, Jln Bambu Kwau, Kampung Kwau, Distrik Mokwam, Manokwari Papua Barat, Telepon : 0812 4864 7103",
+      "Aturan pakai: untuk orang sakit, dewasa minum 2x1 sendok makan sehari dan anak-anak 2x1 sendok teh sehari; untuk menjaga stamina, dewasa minum 1x1 sendok makan sehari dan anak-anak 1x1 sendok teh sehari; sebaiknya dikonsumsi setelah makan dan disimpan di tempat yang dingin.",
+      "Komposisi: betakaroten, alfatokoferol, energi, protein, lemak, karbohidrat, kalsium, fosfor, besi, vitamin B1, vitamin C, niasin, asam oleat, asam linoleat, dan dekanoat, tanpa bahan pengawet dan zat pewarna; bermanfaat untuk mencegah rabun senja, meningkatkan stamina tubuh, memperlancar metabolisme, mencegah penuaan dini, serta bersifat anti kanker dan anti tumor.",
+      "Mencegah rabun senja, meningkatkan stamina tubuh, memperlancar metabolisme, mencegah penuaan dini, anti kangker dan tumor"
     ],
-    "productsTitle": "Produk Unggulan Kampung Kwau:",
-    "products": [
-      "Kopi Kwau - Kopi organik dari dataran tinggi Arfak",
-      "Sayur Organik - Berbagai jenis sayuran segar dari kebun lokal",
-      "Madu Hutan - Madu murni dari lebah hutan Papua",
-      "Kerajinan Bambu - Anyaman dan alat rumah tangga tradisional",
-      "Makanan Tradisional - Papeda, ikan bakar, dan sagu"
+    "fruitTypesTitle": "Labu siam:",
+    "fruitTypes": [
+      "Labu siam merupakan salah satu hasil pertanian yang tumbuh subur di Kampung Kwau berkat tanah yang subur dan iklim pegunungan yang sejuk. Tanamannya mudah dirawat dan dapat dipanen dalam waktu relatif singkat. Masyarakat Kampung Kwau biasanya menanam labu siam di kebun keluarga untuk kebutuhan sehari-hari maupun untuk dijual di pasar. Rasanya yang segar dan teksturnya yang lembut membuat labu siam sering diolah menjadi berbagai masakan seperti sayur bening, tumisan, hingga campuran sayur lodeh."
     ],
-    "marketTitle": "Pasar dan Distribusi:",
-    "market": [
-      "Pasar Wosi - Pasar utama untuk menjual hasil pertanian dan kerajinan",
-      "Pasar Lokal - Pasar tradisional di sekitar Kampung Kwau",
-      "Ekspor Langsung - Pengiriman produk ke Manokwari dan kota besar",
-      "Wisatawan - Penjualan langsung kepada pengunjung dan wisatawan"
+      "pineappleTypesTitle": "Nanas:",
+    "pineappleTypes": [
+      "Nanas menjadi salah satu buah unggulan yang dihasilkan di Kampung Kwau. Tanaman ini tumbuh dengan baik di tanah pegunungan yang subur dan udara yang sejuk, menghasilkan buah yang manis, segar, dan beraroma khas. Masyarakat Kampung Kwau memanfaatkannya untuk konsumsi pribadi maupun dijual di pasar lokal."
     ],
-    "supportTitle": "Dukungan dan Pengembangan:",
-    "support": [
-      "Pelatihan Kewirausahaan - Program peningkatan skill bisnis masyarakat",
-      "Akses Modal - Bantuan modal usaha dari pemerintah dan lembaga keuangan",
-      "Teknologi Pertanian - Pengenalan teknik pertanian modern dan organik",
-      "Pemasaran Digital - Pelatihan pemasaran online dan media sosial"
+     "alpukatTypesTitle": "Alpukat:",
+    "alpukatTypes": [
+      "Alpukat dari Kampung Kwau dikenal dengan daging buahnya yang tebal, lembut, dan memiliki rasa gurih manis alami, tumbuh di tanah pegunungan yang subur dengan udara sejuk. Kampung Kwau terkenal dengan alpukat susu yang lembut dan manis serta alpukat mentega yang tebal dan gurih, keduanya tumbuh subur di tanah pegunungan yang kaya nutrisi."
     ],
-    "quote": "Usaha lokal Kampung Kwau adalah bukti nyata bahwa masyarakat adat dapat mengembangkan ekonomi yang berkelanjutan sambil melestarikan budaya dan lingkungan alam mereka.",
-    "contact": "Bapak Hans Mandacan (Whatsapp: +62821 9946 9312)"
+     "nokenTypesTitle": "Noken Kampung Kwau:",
+    "nokenTypes": [
+      "Noken adalah tas tradisional khas Papua yang dibuat dari serat kulit kayu atau benang, dirajut secara manual dengan teknik khusus. Di Kampung Kwau, noken tidak hanya menjadi alat bawa sehari-hari untuk hasil kebun atau barang kebutuhan, tetapi juga simbol identitas budaya dan kearifan lokal. Noken buatan masyarakat Kwau dikenal kuat, awet, dan memiliki motif unik yang merepresentasikan alam dan kehidupan masyarakat setempat."
+    ],
+  
+    "quote": "Usaha lokal Kampung Kwau adalah bukti nyata bahwa masyarakat adat dapat mengembangkan ekonomi yang berkelanjutan sambil melestarikan budaya dan lingkungan alam mereka, jika mau beli bisa hubungi nomor Masyarakat Kampung Kwau di bawah ini.",
+    "contact": "Masyarakat Kampung Kwau ( Telepon : 0812 4049 5893 )"
   }  
 
 } 

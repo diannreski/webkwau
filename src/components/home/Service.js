@@ -87,7 +87,7 @@ export default function Services() {
       
       {/* Modal untuk Pohon Pisang Hutan Raksasa */}
       <Modal isOpen={openModal} onClose={() => setOpenModal(false)}>
-                 <Modal.Header dangerouslySetInnerHTML={{ __html: t('home:services.bananaTree.title') }}></Modal.Header>
+                 <Modal.Header><span dangerouslySetInnerHTML={{ __html: t('home:services.bananaTree.title') }} /></Modal.Header>
         <Modal.Body>
         <p>
         {t('home:services.bananaTree.description')}
@@ -323,44 +323,64 @@ export default function Services() {
           <h6 className="text-primary mt-4 mb-3">{t('modal:house.constructionTitle')}</h6>
           <ul className="mb-3">
             {t('modal:house.construction', { returnObjects: true }).map((construction, index) => (
-              <li key={index}><strong>{construction.split(': ')[0]}:</strong> {construction.split(': ')[1]}</li>
+              <li key={index}>{construction}</li>
             ))}
           </ul>
 
           <h6 className="text-primary mb-3">{t('modal:house.philosophyTitle')}</h6>
           <ul className="mb-3">
             {t('modal:house.philosophy', { returnObjects: true }).map((philosophy, index) => (
-              <li key={index}><strong>{philosophy.split(': ')[0]}:</strong> {philosophy.split(': ')[1]}</li>
+              <li key={index}>{philosophy}</li>
             ))}
           </ul>
 
           <h6 className="text-primary mb-3">{t('modal:house.functionTitle')}</h6>
           <ul className="mb-3">
             {t('modal:house.function', { returnObjects: true }).map((function_, index) => (
-              <li key={index}><strong>{function_.split(': ')[0]}:</strong> {function_.split(': ')[1]}</li>
+               <li key={index}>{function_}</li>
             ))}
           </ul>
 
           <h6 className="text-primary mb-3">{t('modal:house.advantagesTitle')}</h6>
           <ul className="mb-3">
             {t('modal:house.advantages', { returnObjects: true }).map((advantage, index) => (
-              <li key={index}><strong>{advantage.split(': ')[0]}:</strong> {advantage.split(': ')[1]}</li>
+              <li key={index}>{advantage}</li>
             ))}
           </ul>
 
-          <h6 className="text-primary mb-3">{t('modal:house.experienceTitle')}</h6>
-          <ul className="mb-3">
-            {t('modal:house.experience', { returnObjects: true }).map((experience, index) => (
-              <li key={index}>{experience}</li>
-            ))}
-          </ul>
+<h6 className="text-primary font-semibold mb-1">
+  {t('modal:house.experienceTitle')}
+</h6>
 
-          <h6 className="text-primary mb-3">{t('modal:house.conservationTitle')}</h6>
-          <ul className="mb-4">
-            {t('modal:house.conservation', { returnObjects: true }).map((conservation, index) => (
-              <li key={index}>{conservation}</li>
-            ))}
-          </ul>
+<p className="text-gray-700 mb-2">
+  {t('modal:house.experience', { returnObjects: true })[0]}
+</p>
+
+<ul className="list-disc list-inside space-y-2 text-gray-700">
+  {t('modal:house.experience', { returnObjects: true })
+    .slice(1)
+    .map((experience, index) => (
+      <li key={index}>{experience}</li>
+  ))}
+</ul>
+
+
+
+         <h6 className="text-primary font-semibold mb-1">
+  {t('modal:house.conservationTitle')}
+</h6>
+
+<p className="text-gray-700 mb-2">
+  {t('modal:house.conservation', { returnObjects: true })[0]}
+</p>
+
+<ul className="list-disc list-inside space-y-2 text-gray-700">
+  {t('modal:house.conservation', { returnObjects: true })
+    .slice(1)
+    .map((conservation, index) => (
+      <li key={index}>{conservation}</li>
+  ))}
+</ul>
           <div className="text-center mb-3">
             <em className="text-muted">"{t('modal:house.quote')}"</em>
           </div>
@@ -399,23 +419,18 @@ export default function Services() {
           </ul>
 
           <h6 className="text-primary mb-3">{t('modal:kopi.advantagesTitle')}</h6>
-         <img src="/assets/img/jemurkopi.jpg" alt="Kopi Kwau" className="img-foto" />
+         <img src="/assets/img/kopi3.jpg" alt="Kopi Kwau" className="img-foto" />
           <ul className="mb-3">
             {t('modal:kopi.advantages', { returnObjects: true }).map((advantage, index) => (
               <li key={index}><strong>{advantage.split(': ')[0]}:</strong> {advantage.split(': ')[1]}</li>
             ))}
           </ul>
 
-          <h6 className="text-primary mb-3">{t('modal:kopi.experienceTitle')}</h6>
-          <img src="/assets/img/jemurkopi.jpg" alt="Kopi Kwau" className="img-foto" />
-          <ul className="mb-3">
-            {t('modal:kopi.experience', { returnObjects: true }).map((experience, index) => (
-              <li key={index}>{experience}</li>
-            ))}
-          </ul>
+          
+    
         
         <h6 className="text-primary mb-3">{t('modal:kopi.coffeeTitle')}</h6>
-         <img src="/assets/img/jemurkopi.jpg" alt="Kopi Kwau" className="img-foto" />
+         <img src="/assets/img/kupass.jpg" alt="Kopi Kwau" className="img-foto" />
           <ul className="mb-3">
             {t('modal:kopi.coffee', { returnObjects: true }).map((coffee, index) => (
               <li key={index}><strong>{coffee.split(': ')[0]}:</strong> {coffee.split(': ')[1]}</li>
@@ -445,22 +460,21 @@ export default function Services() {
       <Modal isOpen={openSayurModal} onClose={() => setOpenSayurModal(false)}>
         <Modal.Header>{t('modal:sayur.title')}</Modal.Header>
         <Modal.Body>
-          <p>{t('modal:sayur.description')}
-            <img src="/assets/img/kebunkebun.JPG" alt="Sayur" className="img-foto" /> 
-          </p>
+          <img src="/assets/img/kebun.JPG" alt="Sayur" className="img-foto" /> 
+          <p>{t('modal:sayur.description')}  </p>
 
           <h6 className="text-primary mb-3">{t('modal:sayur.experienceTitle')}</h6>
           <img src="/assets/img/pasarwosi.JPG" alt="Sayur" className="img-foto" /> 
           <ul className="mb-3">
-            {t('modal:sayur.experience', { returnObjects: true }).map((experience, index) => {
+            {t('modal:sayur.experience', { returnObjects: true }).map((experience, index) => (
               <li key={index}>{experience}</li>
-            })}
+            ))}
           </ul>
           <div className="text-center mb-3">
             <em className="text-muted">"{t('modal:sayur.quote')}"</em>
           </div>
           <div className="text-center mb-3">
-            <em className="text-muted">"{t('modal:kopi.contact')}"</em>
+            <em className="text-muted">"{t('modal:sayur.contact')}"</em>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -474,33 +488,46 @@ export default function Services() {
         <Modal.Body>
           <p>{t('modal:usaha.description')}</p>
           
-          <h6 className="text-primary mt-4 mb-3">{t('modal:usaha.businessTypesTitle')}</h6>
+         <h6 className="text-primary mb-3">{t('modal:usaha.businessTypesTitle')}</h6>
+          <img src="/assets/img/minyak.jpg" alt="Minyak Buah Merah" className="img-foto" />
           <ul className="mb-3">
             {t('modal:usaha.businessTypes', { returnObjects: true }).map((business, index) => (
-              <li key={index}><strong>{business.split(' - ')[0]}</strong> - {business.split(' - ')[1]}</li>
+              <li key={index}>{business}</li>
             ))}
           </ul>
 
-          <h6 className="text-primary mb-3">{t('modal:usaha.productsTitle')}</h6>
+          <h6 className="text-primary mb-3">{t('modal:usaha.fruitTypesTitle')}</h6>
+          <img src="/assets/img/labu.jpg" alt="Labu" className="img-foto" />
           <ul className="mb-3">
-            {t('modal:usaha.products', { returnObjects: true }).map((product, index) => (
-              <li key={index}><strong>{product.split(' - ')[0]}</strong> - {product.split(' - ')[1]}</li>
+            {t('modal:usaha.fruitTypes', { returnObjects: true }).map((fruit, index) => (
+              <li key={index}>{fruit}</li>
             ))}
           </ul>
 
-          <h6 className="text-primary mb-3">{t('modal:usaha.marketTitle')}</h6>
+          <h6 className="text-primary mb-3">{t('modal:usaha.pineappleTypesTitle')}</h6>
+          <img src="/assets/img/nenas.jpg" alt="Nanas" className="img-foto" />
           <ul className="mb-3">
-            {t('modal:usaha.market', { returnObjects: true }).map((market, index) => (
-              <li key={index}>{market}</li>
+            {t('modal:usaha.pineappleTypes', { returnObjects: true }).map((pineapple, index) => (
+              <li key={index}>{pineapple}</li>
             ))}
           </ul>
 
-          <h6 className="text-primary mb-3">{t('modal:usaha.supportTitle')}</h6>
-          <ul className="mb-4">
-            {t('modal:usaha.support', { returnObjects: true }).map((support, index) => (
-              <li key={index}>{support}</li>
+          <h6 className="text-primary mb-3">{t('modal:usaha.alpukatTypesTitle')}</h6>
+          <img src="/assets/img/alpukat.jpg" alt="Alpukat" className="img-foto" />
+          <ul className="mb-3">
+            {t('modal:usaha.alpukatTypes', { returnObjects: true }).map((alpukat, index) => (
+              <li key={index}>{alpukat}</li>
             ))}
           </ul>
+
+          <h6 className="text-primary mb-3">{t('modal:usaha.nokenTypesTitle')}</h6>
+          <img src="/assets/img/noken.jpg" alt="Noken" className="img-foto" />
+          <ul className="mb-3">
+            {t('modal:usaha.nokenTypes', { returnObjects: true }).map((noken, index) => (
+              <li key={index}>{noken}</li>
+            ))}
+          </ul>
+
 
           <div className="text-center mb-3">
             <em className="text-muted">"{t('modal:usaha.quote')}"</em>

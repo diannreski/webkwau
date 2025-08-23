@@ -185,95 +185,82 @@
     ],
     "quote": "Tumbu Tanah Dance is not just a performance, but a moving prayer that connects humans with the universe"
   },
-  "house": {
-    "title": "Centipede House - Traditional Arfak Architecture",
-    "description": "The Centipede House is one of the unique attractions in Kwau Village. This house is made of wood and has a distinctive design, with many supporting pillars that resemble centipede legs. This traditional architecture reflects local wisdom in adapting to nature.",
-    "constructionTitle": "Construction and Materials:",
+"house": {
+    "title": "Thousand-Legged House - Traditional Arfak Architecture",
+    "description": "The Millipede House is one of the unique attractions in Kwau Village. Made of wood, the house boasts a distinctive design, with numerous supporting pillars resembling millipedes. This traditional architecture reflects local wisdom in adapting to nature.",
+    "constructionTitle": "KConstruction and Materials:",
     "construction": [
-      "Main Pillars: Ulin wood or ironwood that is durable",
-      "Walls: Combination of wood and bamboo with natural ventilation",
-      "Roof: Sago or rumbia leaves that are waterproof",
-      "Floor: Wooden planks with gaps for air circulation",
-      "Foundation: River stones as pillar base"
+     "The Millipede House is built using natural materials available in the surrounding forest, such as bamboo, wood, and sago palm leaves for the roof. The numerous, closely spaced support pillars give the house a distinctive millipede-like appearance. The raised platform protects the house from soil moisture and wild animals, and facilitates air circulation."
     ],
     "philosophyTitle": "Philosophy and Meaning:",
     "philosophy": [
-      "\"Centipede\": Symbolizing community stability and strength",
-      "Elevation: Stilt house as protection from wild animals",
-      "Orientation: Facing east to welcome sunlight",
-      "Communal Space: Central area for gathering and rituals",
-      "Nature Harmony: Design that integrates with environment"
+      "The philosophy of this house is closely linked to togetherness and mutual cooperation. The numerous supporting pillars symbolize the strength created by community togetherness. Furthermore, this stilt house symbolizes human adaptation to nature—in harmony with the surrounding Arfak Mountains."
     ],
-    "functionTitle": "Function and Rooms:",
+    "functionTitle": "Function and Space:",
     "function": [
-      "Main Room: Extended family gathering area",
-      "Bedroom: Separate compartments for privacy",
-      "Kitchen: Cooking area with traditional fireplace",
-      "Granary: Storage for harvest and equipment",
-      "Veranda: Place to receive guests and daily activities"
+      "Residence for the Arfak people.",
+      "Traditional meeting hall for deliberations, traditional ceremonies, or communal activities.",
+      "Multifunctional space: the interior of the house is not divided by many partitions, so it can be used for sleeping, storing crops, or receiving guests."
     ],
-    "advantagesTitle": "Architectural Advantages:",
+    "advantagesTitle": "Architectural Excellence:",
     "advantages": [
-      "Earthquake Resistant: Flexible structure with traditional joints",
-      "Natural Ventilation: Optimal air circulation",
-      "Environmentally Friendly: 100% natural materials",
-      "Energy Efficient: No air conditioning needed",
-      "Easy to Repair: Practical modular system"
+      "Environmentally friendly because it uses natural materials.",
+      "It is cool inside because of the air circulation from the gaps in the bamboo",
+      "Earthquake resistant due to flexible wood and bamboo construction.",
+      "Its height from the ground provides protection from small floods and wild animals."
     ],
-    "experienceTitle": "Tourist Experience:",
-    "experience": [
-      "Stay in authentic traditional house",
-      "Learn traditional construction techniques",
-      "Workshop making centipede house miniature",
-      "Hear stories and legends from tribal elders",
-      "Experience communal life of Arfak community"
-    ],
+  "experienceTitle": "Traveler Experience:",
+"experience": [
+  "For tourists who visit Kampung Kwau and stay at Rumah Kaki Seribu, they can feel:",
+  "Closeness to nature due to its location in the middle of a mountain forest.",
+  "Traditional atmosphere far from the noise of the city.",
+  "The warmth of the local community who welcomes you with friendliness.",
+  "A unique experience sleeping in a traditional West Papuan house with cool mountain air."
+],
+
     "conservationTitle": "Conservation and Preservation:",
     "conservation": [
-      "Training program for young generation",
-      "Documentation of traditional construction techniques",
-      "Research on environmentally friendly materials and methods",
-      "Revitalization of damaged old houses",
-      "Integration with sustainable tourism"
+      "The Kwau Village community together with the local government and the cultural lover community are carrying out preservation efforts by:",
+      "Teaching the younger generation how to build a Thousand-Legged House.",
+      "Using this house as an ecotourism attraction, so that tourists can get to know and support the local economy.",
+      "Maintaining natural materials so that the architecture is not lost due to modernization.",
+      "Linking the house with forest conservation, because the materials come from nature, thus encouraging the community to maintain sustainable forests."
     ],
     "quote": "The Centipede House is proof of ancestral wisdom in creating dwellings that harmonize with nature"
   },
    "kopi": {
-    "title": "Kwau Coffee - Coffee from Kampung Kwau",
-    "description": "Kwau Village, located in Mokwam District, Manokwari Regency, is not only knoaswn  a world-renowned birdwatching destination but also holds tremendous local potential in agriculture—particularly coffee. Coffee cultivated in Kwau is grown organically in the highlands of the Arfak Mountains, at an ideal altitude for producing high-quality coffee beans. Without the use of chemical pesticides, the coffee plants are naturally cared for by the local community, who have passed this knowledge down through generations. Kwau coffee is known for its distinctive flavor: a fragrant aroma with hints of chocolate and spice, and a balanced taste of light acidity and a smooth texture. Harvesting and processing are carried out manually, reflecting the community's commitment to quality and sustainability. Now, coffee from Kwau Village is being marketed as part of efforts to empower the local economy and promote agrotourism. Tourists can directly witness the process of planting and processing the coffee beans, and even sample fresh coffee brewed by local residents.",
-     "constructionTitle": "Pohon Kopi Kwau:",
+    "title": "Kwau Coffee - Coffee from Kwau Village",
+    "description": "Kwau Village, located in Mokwam District, Manokwari Regency, is not only known as a world-renowned birdwatching destination but also holds tremendous local potential in agriculture—particularly coffee. Coffee cultivated in Kwau is grown organically in the highlands of the Arfak Mountains, at an ideal altitude for producing high-quality coffee beans. Without the use of chemical pesticides, the coffee plants are naturally cared for by the local community, who have passed this knowledge down through generations. Kwau coffee is known for its distinctive flavor: a fragrant aroma with hints of chocolate and spice, and a balanced taste of light acidity and a smooth texture. Harvesting and processing are carried out manually, reflecting the community's commitment to quality and sustainability. Now, coffee from Kwau Village is being marketed as part of efforts to empower the local economy and promote agrotourism. Tourists can directly witness the process of planting and processing the coffee beans, and even sample fresh coffee brewed by local residents.",
+     "constructionTitle": "Kwau Coffee Tree:",
     "construction": [
-      "Buah kopi hanya dipetik saat benar-benar matang warna merah tua."
+      "Coffee cherries are only picked when they are fully ripe and a deep red color."
     ],
-    "philosophyTitle": "Buah Kopi Kwau Belum di kupas:",
+    "philosophyTitle": "Unpeeled Kwau Coffee Fruit:",
     "philosophy": [
-      "Buah Kopi Kwau: Buah yang sudah di petik ini yang siap untuk di kupas. Warna merah tua menandakan kadar gula optimal. Buah yang cacat, hijau, atau busuk dipisahkan. Buah yang lolos seleksi inilah yang lanjut ke tahap berikutnya."
+      "Kwau Coffee Fruit: This picked fruit is ready to be peeled. A deep red color indicates optimal sugar content. Damaged, green, or rotten fruit is removed. Those that pass the selection process proceed to the next stage."
     ],
-    "functionTitle": "Buah Kopi setelah di kupas:",
+    "functionTitle": "Coffee fruit after peeling:",
     "function": [
-      "Buah Kopi Kwau: Buah di kupas dari kulit dan di ambil biji kopinya agar bisa di jemur"
+      "Kwau Coffee Fruit: The fruit is peeled from the skin and the coffee beans are removed so they can be dried in the sun."
     ],
-    "advantagesTitle": "Biji Kopi di jemur:",
+    "advantagesTitle": "Coffee beans dried in the sun:",
     "advantages": [
-      "Penjemuran Tradisional: Biji kopi dijemur di atas para-para bambu atau pun alas lainnya. Proses ini di keringkan sampe betul-betul kering."
+      "Traditional Drying: Coffee beans are dried on bamboo racks or other mats. This process involves drying them until they are completely dry.."
     ],
-    "experienceTitle": "Biji Kopi Setelah di jemur:",
-    "experience": [
-      "Setelah kering, kopi disimpan dalam karung goni di tempat sejuk dan gelap. Ini memberi waktu untuk rasa kopi menjadi stabil."
-    ],
-    "coffeeTitle": "Proses Pengupasan Kulit yang sudah di jemur:",
+  
+    "coffeeTitle": "The process of peeling the skin that has been dried in the sun:",
     "coffee": [
-      "Pengupasan Kulit: Ini adalah proses penting dan khas di Kampung Kwau, pengupasan kulit tanduk (kulit keras berwarna keperakan) dilakukan dengan dua cara",
-      "Pertama Manual Tradisional: Untuk skala kecil atau konsumsi lokal, sebagian petani masih menggunakan alat tumbuk kayu (lesung & alu) untuk memecah kulit ari. Proses ini memakan waktu, tetapi menciptakan kedekatan dengan hasil panen.",
-      "Kedua Mesin Huller Sederhana: Untuk skala penjualan, petani atau koperasi lokal menggunakan mesin huller bertenaga diesel. Mesin ini mengupas kulit tanduk dan memisahkan biji dari serpihan kulitnya."
+      "Peeling of the Skin: This is an important and unique process in Kampung Kwau, peeling the horn skin (hard silvery skin) is done in two ways:",
+      "First Traditional Manual: For small-scale or local consumption, some farmers still use wooden pestles (mortars and pestles) to break down the husks. This process is time-consuming but creates a closer connection to the harvest.",
+      "The Two Simple Huller Machines: For large-scale sales, local farmers or cooperatives use diesel-powered cocoa hulling machines. These machines remove the husk and separate the beans from the husk flakes."
     ],
-    "conservationTitle": "Sortir Akhir:",
+    "conservationTitle": "Final Sort:",
     "conservation": [
-      "Biji disortir ulang secara manual. Hanya biji terbaik yang akan masuk ke karung ekspor atau sangrai lokal."
+      "The coffee beans are re-sorted manually. Only the best beans are sent to export sacks or local roasting machines."
     ],
     
-    "quote": "Jika anda ingin mendapatkan Biji kopi kwau bisa langsung datang ke Kampung Kwau, Distrik Mokwam, atau bisa hubungi Kontak di bawah ini",
-    "contact": "Bapak Hans Mandacan (Whatsapp: +62821 9946 9312)"
+    "quote": "If you want to get Kwau coffee beans, you can come directly to Kwau Village, Mokwam District, or you can contact the contact below.",
+    "contact": "Mr. Hans Mandacan (Whatsapp: +62821 9946 9312)"
     
   },
    "sayur": {
@@ -286,40 +273,35 @@
     "quote": "If you want to get vegetables from Kwau Village, you can come directly to Kwau Village, Mokwam District or you can come directly to Wosi Market, it is located in front of the Hilux Car parking lot. Enter inside and you can also contact the contact below.",
      "contact": "Mr. Hans Mandacan (Whatsapp: +62821 9946 9312)"
   },
-  "usaha": {
+      "usaha": {
     "title": "Kwau Village Business - Local Economy",
-    "description": "Kwau Village is not only rich in natural tourism potential, but also has various economic businesses managed by local communities. These businesses become important sources of income and demonstrate the creativity and entrepreneurial spirit of the Kwau Village community in developing sustainable local economies.",
-    "businessTypesTitle": "Types of Businesses Managed:",
+    "description": "Kwau Village is not only rich in natural tourism potential but also boasts a variety of economic enterprises managed by the local community. These businesses provide a vital source of income and demonstrate the creativity and entrepreneurial spirit of the Kwau Village community in developing a sustainable local economy.",
+    "businessTypesTitle": "Red Fruit Oil:",
     "businessTypes": [
-      "Organic Farming - Cultivation of vegetables and fruits without chemical pesticides",
-      "Traditional Livestock - Development of local chickens, pigs, and cattle",
-      "Handicrafts - Making bamboo weavings and traditional wood carvings",
-      "Tourism Services - Homestay, tour guides, and local transportation",
-      "Food Processing - Production of coffee, honey, and traditional foods"
+      "Red Fruit Oil is guaranteed halal, URINYAI Production, Jln Bambu Kwau, Kampung Kwau, Mokwam District, Manokwari, West Papua, Telephone: 0812 4864 7103",
+      "Directions for use: for sick people, adults take 2x1 tablespoon a day and children take 2x1 teaspoon a day; to maintain stamina, adults take 1x1 tablespoon a day and children take 1x1 teaspoon a day; it is best consumed after meals and stored in a cool place.",
+      "Composition: beta-carotene, alpha-tocopherol, energy, protein, fat, carbohydrates, calcium, phosphorus, iron, vitamin B1, vitamin C, niacin, oleic acid, linoleic acid, and decanoate, without preservatives and coloring agents; useful for preventing night blindness, increasing body stamina, facilitating metabolism, preventing premature aging, and has anti-cancer and anti-tumor properties.",
+      "Prevents night blindness, increases body stamina, accelerates metabolism, prevents premature aging, anti-cancer and anti-tumor"
     ],
-    "productsTitle": "Kwau Village's Premium Products:",
-    "products": [
-      "Kwau Coffee - Organic coffee from Arfak highlands",
-      "Organic Vegetables - Various fresh vegetables from local gardens",
-      "Forest Honey - Pure honey from Papua forest bees",
-      "Bamboo Crafts - Traditional weavings and household tools",
-      "Traditional Foods - Papeda, grilled fish, and sago"
+    "fruitTypesTitle": "Chayote:",
+    "fruitTypes": [
+      "Chayote is a staple crop in Kwau Village, thanks to its fertile soil and cool mountain climate. The plant is easy to care for and can be harvested relatively quickly. Residents of Kwau Village typically grow chayote in their family gardens for daily needs and to sell at the market. Its refreshing flavor and soft texture make chayote a popular ingredient in various dishes, including clear vegetable soup, stir-fries, and even mixed with lodeh (Indonesian traditional vegetable soup)."
     ],
-    "marketTitle": "Markets and Distribution:",
-    "market": [
-      "Wosi Market - Main market for selling agricultural products and crafts",
-      "Local Markets - Traditional markets around Kwau Village",
-      "Direct Export - Product shipments to Manokwari and major cities",
-      "Tourists - Direct sales to visitors and tourists"
+      "pineappleTypesTitle": "Pineapple:",
+    "pineappleTypes": [
+      "Pineapples are one of the superior fruits produced in Kampung Kwau. These plants thrive in the fertile mountain soil and cool air, producing sweet, fresh, and aromatic fruit. The people of Kampung Kwau use them for personal consumption and for sale at local markets."
     ],
-    "supportTitle": "Support and Development:",
-    "support": [
-      "Entrepreneurship Training - Programs to improve community business skills",
-      "Capital Access - Business capital assistance from government and financial institutions",
-      "Agricultural Technology - Introduction of modern and organic farming techniques",
-      "Digital Marketing - Training in online marketing and social media"
+     "alpukatTypesTitle": "Avocado:",
+    "alpukatTypes": [
+      "Avocados from Kwau Village are known for their thick, soft flesh and naturally sweet, savory flavor, grown in the fertile, cool mountain soil. Kampung Kwau is renowned for its soft, sweet milk avocados and thick, savory butter avocados, both of which thrive in the nutrient-rich mountain soil."
     ],
-    "quote": "Kwau Village's local businesses are real proof that indigenous communities can develop sustainable economies while preserving their culture and natural environment.",
-    "contact": "Mr. Hans Mandacan (Whatsapp: +62821 9946 9312)"
-  }
+     "nokenTypesTitle": "Noken of Kwau Village:",
+    "nokenTypes": [
+      "Noken are traditional Papuan bags made from bark fiber or thread, hand-woven using a special technique. In Kwau Village, noken are not only a daily tool for carrying garden produce or necessities, but also a symbol of cultural identity and local wisdom. Noken made by the Kwau people are known for their strength, durability, and unique motifs that represent nature and local life."
+    ],
+  
+    "quote": "Local businesses in Kwau Village are living proof that indigenous communities can develop a sustainable economy while preserving their culture and natural environment. If you'd like to purchase, please contact the Kampung Kwau Community number below.",
+    "contact": "Kwau Village Community (Telephone: 0812 4049 5893)"
+  }  
+
 } 
